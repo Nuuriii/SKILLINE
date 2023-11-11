@@ -23,7 +23,7 @@ export default function Navbar() {
               </h1>
             </div>
             <ul
-              className='flex items-center'
+              className='items-center hidden lg:flex'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               <li className='mr-[2rem]'>
