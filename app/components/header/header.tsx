@@ -5,6 +5,7 @@ import Play from '@/assets/header/play.png';
 import Girl from '@/assets/header/girl.png';
 import Man from '@/assets/header/man.svg';
 import Calender from '@/assets/header/calendar.svg';
+import Mail from '@/assets/header/email.svg';
 
 export default function Header() {
   return (
@@ -36,6 +37,26 @@ export default function Header() {
             </div>
           </div>
           <div className='mr-[10rem] relative '>
+            <div className='absolute right-[-8rem] top-[11rem] flex py-[0.7rem] px-[1rem] backdrop-blur-[7px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
+              <div className='bg-[#F88C3D] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
+                <Image className='h-[100%] w-[100%]' src={Mail} alt='' />
+              </div>
+              <div>
+                <h2
+                  className='text-[#595959] font-[700]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  Congratulations
+                </h2>
+                <p
+                  className='text-[#545567] text-[1rem]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  Your admission completed
+                </p>
+              </div>
+            </div>
+
             <div className='absolute left-[-8rem] top-[4rem] flex py-[0.7rem] px-[1rem] backdrop-blur-[5px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
               <div className='bg-[#23BDEE] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
                 <Image className='h-[100%] w-[100%]' src={Calender} alt='' />
@@ -70,7 +91,7 @@ export default function Header() {
                   Today at 12.00 PM
                 </p>
                 <button
-                  className='h-[2rem] w-[8rem] rounded-[2rem] font-[700] flex justify-center items-center bg-[#D8587E] text-[#FFFFFF]'
+                  className='h-[2.5rem] w-[8rem] rounded-[2rem] font-[700] flex justify-center items-center bg-[#D8587E] text-[#FFFFFF] hover:scale-[1.05] duration-[0.3s]'
                   style={{ fontFamily: 'nunito, sans-serif' }}
                 >
                   Join Now
