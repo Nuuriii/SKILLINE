@@ -37,7 +37,7 @@ export default function Header() {
           </div>
           <div className='mr-[10rem] relative '>
             <div className='absolute left-[-8rem] top-[4rem] flex py-[0.7rem] px-[1rem] backdrop-blur-[5px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
-              <div className='bg-[#23BDEE] h-[2.7rem] w-[2.8rem] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
+              <div className='bg-[#23BDEE] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
                 <Image className='h-[100%] w-[100%]' src={Calender} alt='' />
               </div>
               <div>
