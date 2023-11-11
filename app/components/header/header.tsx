@@ -7,7 +7,7 @@ export default function Header() {
     <div className='relative'>
       <Image className='absolute z-[-2]' src={Bg} alt='' />
       <Padding>
-        <div className='pt-[11rem]'>kkkkk</div>
+        <div className='pt-[11rem]'>kk</div>
       </Padding>
     </div>
   );
