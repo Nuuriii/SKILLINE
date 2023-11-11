@@ -7,6 +7,7 @@ import Man from '@/assets/header/man.svg';
 import Calender from '@/assets/header/calendar.svg';
 import Mail from '@/assets/header/email.svg';
 import Statistic from '@/assets/header/statistic.png';
+import GreenBullet from '@/assets/header/greenbullet.svg';
 
 export default function Header() {
   return (
@@ -82,8 +83,13 @@ export default function Header() {
               </div>
             </div>
             <div className='absolute bottom-[5rem] left-[-11rem] backdrop-blur-[5px] bg-[#FFFFFFCC] flex py-[1rem] px-[1rem] rounded-[1rem]'>
-              <div className='mr-[1rem]'>
+              <div className='mr-[1rem] relative'>
                 <Image className='h-[2.4rem] w-auto' src={Man} alt='' />
+                <Image
+                  className='absolute h-[0.9rem] w-auto top-[1.5rem] right-[-0.2rem] border-[1.5px] border-solid border-[#FBECD7] rounded-[100%]'
+                  src={GreenBullet}
+                  alt=''
+                />
               </div>
               <div>
                 <h2
