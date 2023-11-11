@@ -6,6 +6,7 @@ import Girl from '@/assets/header/girl.png';
 import Man from '@/assets/header/man.svg';
 import Calender from '@/assets/header/calendar.svg';
 import Mail from '@/assets/header/email.svg';
+import Statistic from '@/assets/header/statistic.png';
 
 export default function Header() {
   return (
@@ -37,6 +38,10 @@ export default function Header() {
             </div>
           </div>
           <div className='mr-[10rem] relative '>
+            <div className='absolute right-[-2rem] top-[3rem]'>
+              <Image className='h-[3rem] w-auto' src={Statistic} alt='' />
+            </div>
+
             <div className='absolute right-[-8rem] top-[11rem] flex py-[0.7rem] px-[1rem] backdrop-blur-[7px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
               <div className='bg-[#F88C3D] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
                 <Image className='h-[100%] w-[100%]' src={Mail} alt='' />
