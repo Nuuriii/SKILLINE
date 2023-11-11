@@ -8,6 +8,7 @@ import Calender from '@/assets/header/calendar.svg';
 import Mail from '@/assets/header/email.svg';
 import Statistic from '@/assets/header/statistic.png';
 import GreenBullet from '@/assets/header/greenbullet.svg';
+import CheckIcon from '@/assets/header/checklist.svg';
 
 export default function Header() {
   return (
@@ -47,7 +48,8 @@ export default function Header() {
               <div className='bg-[#F88C3D] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
                 <Image className='h-[100%] w-[100%]' src={Mail} alt='' />
               </div>
-              <div>
+              <div className='relative'>
+                <Image className='absolute right-0' src={CheckIcon} alt='' />
                 <h2
                   className='text-[#595959] font-[700]'
                   style={{ fontFamily: 'nunito, sans-serif' }}
