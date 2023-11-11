@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Polygon from "@/assets/navbar/Polygon.svg";
 import Padding from "../padding/padding";
-import Header from "../header/header";
 
 export default function Navbar() {
   return (
