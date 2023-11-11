@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Padding from '../padding/padding';
 import Play from '@/assets/header/play.png';
 import Girl from '@/assets/header/girl.png';
+import Man from '@/assets/header/man.svg';
 
 export default function Header() {
   return (
@@ -33,7 +34,29 @@ export default function Header() {
               <p className='text-[#252641]'>Watch how it works</p>
             </div>
           </div>
-          <div className='mr-[10rem]'>
+          <div className='mr-[10rem] relative '>
+            <div className='absolute bottom-0 backdrop-blur-[2px] bg-[#FFFFFFCC] flex py-[1rem] px-[1rem] rounded-[1rem]'>
+              <div className='mr-[1rem]'>
+                <Image className='h-[2.4rem] w-auto' src={Man} alt='' />
+              </div>
+              <div>
+                <h2
+                  className='text-[#595959] font-[700]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  User Experience Class
+                </h2>
+                <p className='text-[#545567] mb-[1rem] text-[0.9rem]'>
+                  Today at 12.00 PM
+                </p>
+                <button
+                  className='h-[2rem] w-[8rem] rounded-[2rem] font-[700] flex justify-center items-center bg-[#D8587E] text-[#FFFFFF]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  Join Now
+                </button>
+              </div>
+            </div>
             <Image className='h-[30rem] top-[3rem]  w-auto' src={Girl} alt='' />
           </div>
         </div>

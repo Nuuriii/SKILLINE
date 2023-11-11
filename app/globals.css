@@ -5,3 +5,7 @@
   font-family: 'poppins';
   src: url('../assets//fonts/Poppins-Regular.ttf');
 }
+@font-face {
+  font-family: 'nunito';
+  src: url('../assets/fonts/NunitoSans_10pt-Regular.ttf');
+}
