@@ -4,6 +4,7 @@ import Padding from '../padding/padding';
 import Play from '@/assets/header/play.png';
 import Girl from '@/assets/header/girl.png';
 import Man from '@/assets/header/man.svg';
+import Calender from '@/assets/header/calendar.svg';
 
 export default function Header() {
   return (
@@ -35,7 +36,26 @@ export default function Header() {
             </div>
           </div>
           <div className='mr-[10rem] relative '>
-            <div className='absolute bottom-0 backdrop-blur-[2px] bg-[#FFFFFFCC] flex py-[1rem] px-[1rem] rounded-[1rem]'>
+            <div className='absolute left-[-8rem] top-[4rem] flex py-[0.7rem] px-[1rem] backdrop-blur-[5px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
+              <div className='bg-[#23BDEE] h-[2.7rem] w-[2.8rem] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
+                <Image className='h-[100%] w-[100%]' src={Calender} alt='' />
+              </div>
+              <div>
+                <h2
+                  className='text-[#595959] font-[700]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  250k
+                </h2>
+                <p
+                  className='text-[#545567] text-[1rem]'
+                  style={{ fontFamily: 'nunito, sans-serif' }}
+                >
+                  Assisted Student
+                </p>
+              </div>
+            </div>
+            <div className='absolute bottom-[5rem] left-[-11rem] backdrop-blur-[5px] bg-[#FFFFFFCC] flex py-[1rem] px-[1rem] rounded-[1rem]'>
               <div className='mr-[1rem]'>
                 <Image className='h-[2.4rem] w-auto' src={Man} alt='' />
               </div>
