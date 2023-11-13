@@ -20,16 +20,16 @@ export default function Header() {
       />
       <div className='w-full bg-[#FFF2E1] lg:bg-transparent min-[1488px]:w-[70rem]'>
         <Padding>
-          <div className='flex  lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] min-[1488px]:h-[45rem]'>
-            <div className='flex md:hidden'>
+          <div className='flex pt-[4rem] lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] md:h-[42rem] min-[1488px]:h-[45rem]'>
+            <div className='flex lg:hidden'>
               <Image
-                className='shadow-[ 0px 4px 100px 0px rgba(29, 28, 24, 0.25)] h-[12rem] w-auto'
+                className='shadow-[ 0px 4px 100px 0px rgba(29, 28, 24, 0.25)] h-[13rem] w-auto md:h-[18rem]'
                 src={Girl}
                 alt='girlMobile'
               />
             </div>
-            <div className='w-[100%] mt-[1.2rem] md:mt-[0] md:w-[40rem] lg:w-[50%]'>
-              <h1 className='text-[#2F327D] font-[700] text-center text-[2rem] lg:text-start md:text-[2.9rem] '>
+            <div className='w-[100%] mt-[3rem] md:mt-[0] md:w-[40rem] lg:w-[50%]'>
+              <h1 className='text-[#2F327D] font-[700] text-center text-[2rem] lg:text-start lg:text-[2.9rem] '>
                 <span className='text-[#F48C06]'>Studying</span> Online is now
                 much easier
               </h1>

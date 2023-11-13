@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className='w-full min-[1488px]:w-[70rem]'>
         <Padding>
           <div className='w-full relative flex items-center justify-between py-[0.5rem] lg:py-[1.5rem]'>
-            <div className='relative'>
+            <div className='relative ml-[0.8rem] md:ml-[0]'>
               <Image
                 className='h-[2.9rem] top-[-0.4rem] left-[-1.7rem] absolute z-[-1]'
                 src={Polygon}
@@ -33,7 +33,7 @@ export default function Navbar() {
               </h1>
             </div>
             <button onClick={handleShow} className='lg:hidden'>
-              <Image src={Hamburger} alt='hamburger' />
+              <Image className='h-[3.4rem]' src={Hamburger} alt='hamburger' />
             </button>
             {/* ul for mobile */}
             <ul
