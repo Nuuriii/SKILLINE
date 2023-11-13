@@ -34,6 +34,6 @@ describe('check text and img alt', () => {
     const findHamburger = screen.getByAltText('hamburger');
 
     expect(findIconLogo).toBeVisible();
-    expect(findIconLogo).toBeVisible();
+    expect(findHamburger).toBeVisible();
   });
 });
