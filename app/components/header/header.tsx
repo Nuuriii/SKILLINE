@@ -31,7 +31,7 @@ export default function Header() {
             <div className='w-[100%] mt-[1.2rem] md:mt-[0] md:w-[40rem] lg:w-[50%]'>
               <h1 className='text-[#2F327D] font-[700] text-center text-[2rem] lg:text-start md:text-[2.9rem] '>
                 <span className='text-[#F48C06]'>Studying</span> Online is now
-                much easier
+                much easier Hahah bisa cuy
               </h1>
               <p className='text-[#464646] lg:w-[80%] my-[1rem] md:my-[2rem] text-center lg:text-start text-[1.1rem] md:text-[1.3rem]'>
                 Skilline is an interesting platform that will teach you in more
