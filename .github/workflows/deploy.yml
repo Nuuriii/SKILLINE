@@ -16,7 +16,6 @@ jobs:
       - name: Checkout Repository
         uses: pnpm/action-setup@v2
         with:
-          version: 8
           run: pnpm build
 
   test:
