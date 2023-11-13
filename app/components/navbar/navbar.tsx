@@ -35,6 +35,7 @@ export default function Navbar() {
             <button onClick={handleShow} className='lg:hidden'>
               <Image src={Hamburger} alt='hamburger' />
             </button>
+            {/* ul for mobile */}
             <ul
               className={` flex 
             flex-col 
@@ -103,6 +104,7 @@ export default function Navbar() {
                 </button>
               </li>
             </ul>
+            {/* ul for desktop view */}
             <ul
               className='items-center hidden lg:flex'
               style={{ fontFamily: 'poppins, sans-serif' }}
