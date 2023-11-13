@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
 
       - name: Install Dependencies
         run: pnpm i
@@ -29,7 +31,9 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
 
       - name: Install Dependencies
         run: pnpm i
@@ -42,7 +46,9 @@ jobs:
     name: Deploy to Production
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Install Dependencies
         run: pnpm i
       - name: Install Vercel CLI
