@@ -41,7 +41,7 @@ export default function Header() {
                 <button className='h-[3rem] w-[9rem] font-[600] rounded-[2rem] bg-[#F48C06] text-[#FFFFFF] flex justify-center items-center hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'>
                   Join for free
                 </button>
-                <button className='hover:scale-[1.05] duration-[0.3s]'>
+                <button className='hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'>
                   <Image
                     className='h-[3.7rem] w-auto mx-[1.5rem]'
                     src={Play}
@@ -138,7 +138,7 @@ export default function Header() {
                     Today at 12.00 PM
                   </p>
                   <button
-                    className='h-[2.5rem] w-[8rem] rounded-[2rem] font-[700] flex justify-center items-center bg-[#D8587E] text-[#FFFFFF] hover:scale-[1.05] duration-[0.3s]'
+                    className='h-[2.5rem] w-[8rem] rounded-[2rem] font-[700] flex justify-center items-center bg-[#D8587E] text-[#FFFFFF] hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'
                     style={{ fontFamily: 'nunito, sans-serif' }}
                   >
                     Join Now
