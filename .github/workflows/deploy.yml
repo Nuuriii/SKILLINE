@@ -19,7 +19,7 @@ jobs:
           version: 8
 
       - name: Install Global Pnpm
-        run: npx pnpm install --global pnpm
+        run: npm install --global pnpm
 
       - name: Install Dependencies
         run: pnpm i
