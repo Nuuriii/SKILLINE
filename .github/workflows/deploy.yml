@@ -18,8 +18,11 @@ jobs:
         with:
           version: 8
 
+      - name: Install Global Pnpm
+        run: npx pnpm install --global pnpm
+
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm i
 
       - name: Build Application
         run: pnpm build
