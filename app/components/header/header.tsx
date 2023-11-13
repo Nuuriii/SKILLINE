@@ -16,7 +16,7 @@ export default function Header() {
       <Image
         className='h-[95vh] hidden lg:flex min-[1488px]:h-[40rem] min-[1488px]:w-[100%] absolute z-[-2]'
         src={Bg}
-        alt=''
+        alt='orangeBg'
       />
       <div className='w-full bg-[#FFF2E1] lg:bg-transparent min-[1488px]:w-[70rem]'>
         <Padding>
@@ -25,7 +25,7 @@ export default function Header() {
               <Image
                 className='shadow-[ 0px 4px 100px 0px rgba(29, 28, 24, 0.25)] h-[12rem] w-auto'
                 src={Girl}
-                alt=''
+                alt='girlMobile'
               />
             </div>
             <div className='w-[100%] mt-[1.2rem] md:mt-[0] md:w-[40rem] lg:w-[50%]'>
@@ -45,7 +45,7 @@ export default function Header() {
                   <Image
                     className='h-[3.7rem] w-auto mx-[1.5rem]'
                     src={Play}
-                    alt=''
+                    alt='playIcon'
                   />
                 </button>
                 <p className='text-[#252641] hidden md:flex'>
@@ -55,15 +55,27 @@ export default function Header() {
             </div>
             <div className='mr-[4rem] xl:mr-[10rem] min-[1488px]:mr-[2rem] relative hidden lg:block '>
               <div className='absolute hidden xl:flex right-[-2rem] top-[3rem]'>
-                <Image className='h-[3rem] w-auto' src={Statistic} alt='' />
+                <Image
+                  className='h-[3rem] w-auto'
+                  src={Statistic}
+                  alt='statisticIcon'
+                />
               </div>
 
               <div className='absolute right-[-8rem] top-[11rem] hidden xl:flex py-[0.7rem] px-[1rem] backdrop-blur-[7px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
                 <div className='bg-[#F88C3D] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
-                  <Image className='h-[100%] w-[100%]' src={Mail} alt='' />
+                  <Image
+                    className='h-[100%] w-[100%]'
+                    src={Mail}
+                    alt='mailIcon'
+                  />
                 </div>
                 <div className='relative'>
-                  <Image className='absolute right-0' src={CheckIcon} alt='' />
+                  <Image
+                    className='absolute right-0'
+                    src={CheckIcon}
+                    alt='checkIcon'
+                  />
                   <h2
                     className='text-[#595959] font-[700]'
                     style={{ fontFamily: 'nunito, sans-serif' }}
@@ -81,7 +93,11 @@ export default function Header() {
 
               <div className='absolute left-[-8rem] top-[4rem] hidden xl:flex py-[0.7rem] px-[1rem] backdrop-blur-[5px] rounded-[1rem] bg-[#FFFFFFCC] items-center'>
                 <div className='bg-[#23BDEE] h-[2.5rem] w-[auto] rounded-[0.3rem] flex justify-center items-center mr-[1rem] p-[0.3rem]'>
-                  <Image className='h-[100%] w-[100%]' src={Calender} alt='' />
+                  <Image
+                    className='h-[100%] w-[100%]'
+                    src={Calender}
+                    alt='calenderIcon'
+                  />
                 </div>
                 <div>
                   <h2
@@ -100,11 +116,15 @@ export default function Header() {
               </div>
               <div className='absolute bottom-[5rem] left-[-11rem] backdrop-blur-[5px] bg-[#FFFFFFCC] hidden xl:flex py-[1rem] px-[1rem] rounded-[1rem]'>
                 <div className='mr-[1rem] relative'>
-                  <Image className='h-[2.4rem] w-auto' src={Man} alt='' />
+                  <Image
+                    className='h-[2.4rem] w-auto'
+                    src={Man}
+                    alt='manIcon'
+                  />
                   <Image
                     className='absolute h-[0.9rem] w-auto top-[1.5rem] right-[-0.2rem] border-[1.5px] border-solid border-[#FBECD7] rounded-[100%]'
                     src={GreenBullet}
-                    alt=''
+                    alt='bulletIcon'
                   />
                 </div>
                 <div>
@@ -128,7 +148,7 @@ export default function Header() {
               <Image
                 className='h-[30rem] top-[3rem]  w-auto'
                 src={Girl}
-                alt=''
+                alt='girlDekstop'
               />
             </div>
           </div>

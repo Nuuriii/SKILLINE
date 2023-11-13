@@ -32,4 +32,28 @@ describe('check text and img alt', () => {
     expect(findTime).toBeInTheDocument();
     expect(findJoinBtn).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Header />);
+    const orangeBg = screen.getByAltText('orangeBg');
+    const girlMobile = screen.getByAltText('girlMobile');
+    const playIcon = screen.getByAltText('playIcon');
+    const statisticIcon = screen.getByAltText('statisticIcon');
+    const mailIcon = screen.getByAltText('mailIcon');
+    const checkIcon = screen.getByAltText('checkIcon');
+    const calenderIcon = screen.getByAltText('calenderIcon');
+    const manIcon = screen.getByAltText('manIcon');
+    const greenBullet = screen.getByAltText('bulletIcon');
+    const girlDekstop = screen.getByAltText('girlDekstop');
+
+    expect(orangeBg).toBeVisible();
+    expect(girlMobile).toBeVisible();
+    expect(playIcon).toBeVisible();
+    expect(statisticIcon).toBeVisible();
+    expect(mailIcon).toBeVisible();
+    expect(checkIcon).toBeVisible();
+    expect(calenderIcon).toBeVisible();
+    expect(manIcon).toBeVisible();
+    expect(greenBullet).toBeVisible();
+    expect(girlDekstop).toBeVisible();
+  });
 });
