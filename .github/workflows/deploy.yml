@@ -18,6 +18,9 @@ jobs:
         with:
           version: 8
 
+      - name: Install Dependencies
+        run: pnpm install
+
       - name: Build Application
         run: pnpm build
 
