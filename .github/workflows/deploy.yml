@@ -17,15 +17,15 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
+          run: pnpm build
 
-      - name: Install Global Pnpm
-        run: npm install --global pnpm
+      # - name: Install Global Pnpm
+      #   run: npm install --global pnpm
 
-      - name: Install Dependencies
-        run: pnpm i
+      # - name: Install Dependencies
+      #   run: pnpm i
 
-      - name: Build Application
-        run: pnpm build
+      # - name: Build Application
 
   test:
     name: Test
