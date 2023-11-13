@@ -23,7 +23,7 @@ export default function Navbar() {
               <Image
                 className='h-[2.9rem] top-[-0.4rem] left-[-1.7rem] absolute z-[-1]'
                 src={Polygon}
-                alt=''
+                alt='icon'
               />
               <h1
                 className='font-[700]  text-[#113C49] text-[1.5rem]'
@@ -33,7 +33,7 @@ export default function Navbar() {
               </h1>
             </div>
             <button onClick={handleShow} className='lg:hidden'>
-              <Image src={Hamburger} alt='' />
+              <Image src={Hamburger} alt='hamburger' />
             </button>
             <ul
               className={` flex 
@@ -54,7 +54,7 @@ export default function Navbar() {
             >
               <li>
                 <Link
-                  className='text-[#252641]'
+                  className='text-[#252641] lg:hidden'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -108,7 +108,7 @@ export default function Navbar() {
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               <li className='mr-[2rem]'>
-                <Link className='text-[#252641]' href={'/'}>
+                <Link className='text-[#252641] hidden lg:flex' href={'/'}>
                   Home
                 </Link>
               </li>
