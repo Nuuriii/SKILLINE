@@ -20,7 +20,7 @@ export default function Header() {
       />
       <div className='w-full bg-[#FFF2E1] lg:bg-transparent min-[1488px]:w-[70rem]'>
         <Padding>
-          <div className='flex pt-[4rem] lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] md:h-[42rem] min-[1488px]:h-[45rem]'>
+          <div className='flex pt-[4rem] lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] md:h-[42rem] lg:-[100vh] min-[1488px]:h-[45rem]'>
             <div className='flex lg:hidden'>
               <Image
                 className='shadow-[ 0px 4px 100px 0px rgba(29, 28, 24, 0.25)] h-[13rem] w-auto md:h-[18rem]'
@@ -38,7 +38,7 @@ export default function Header() {
                 an interactive way
               </p>
               <div className='flex items-center justify-center lg:justify-start'>
-                <button className='h-[3rem] w-[9rem] font-[600] rounded-[2rem] bg-[#F48C06] text-[#FFFFFF] flex justify-center items-center hover:scale-[1.05] duration-[0.3s]'>
+                <button className='h-[3rem] w-[9rem] font-[600] rounded-[2rem] bg-[#F48C06] text-[#FFFFFF] flex justify-center items-center hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'>
                   Join for free
                 </button>
                 <button className='hover:scale-[1.05] duration-[0.3s]'>
