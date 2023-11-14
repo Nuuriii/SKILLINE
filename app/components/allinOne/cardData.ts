@@ -1,3 +1,4 @@
+import File from '@/assets/allinOne/file.svg';
 import Calendar from '@/assets/header/calendar.svg';
 import Teams from '@/assets/allinOne/teams.svg';
 

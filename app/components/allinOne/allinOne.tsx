@@ -1,4 +1,6 @@
 import Padding from '../padding/padding';
+import { cardData } from './cardData';
+import Card from './card';
 
 export default function AllinOne() {
   return (
@@ -21,7 +23,16 @@ export default function AllinOne() {
               the tools needed to run a successful school or office.
             </p>
           </div>
-          <div></div>
+          <div>
+            {cardData.map((item, index) => (
+              <Card
+                key={index}
+                icon={item.icon}
+                title={item.title}
+                desc={item.desc}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </Padding>
