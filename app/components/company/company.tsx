@@ -21,7 +21,7 @@ export default function Company() {
           Trusted by 5,000+ Companies Worldwide
         </h1>
       </div>
-      <div className='flex'>
+      <div className='flex items-center'>
         {CompanyIcon.map((item, index) => (
           <div className={styles.imgContainer} key={index}>
             <Image className={styles.imgRegular} src={item.regular} alt='' />

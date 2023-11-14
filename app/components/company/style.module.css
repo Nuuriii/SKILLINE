@@ -1,13 +1,17 @@
 .imgRegular {
   display: flex;
-  height: 2rem;
+  height: 8rem;
   width: auto;
 }
 
 .imgHover {
   display: none;
-  height: 2rem;
+  height: 8rem;
   width: auto;
+}
+
+.imgContainer {
+  margin: 0 3rem 0 0;
 }
 
 .imgContainer:hover .imgRegular {
