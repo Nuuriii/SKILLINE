@@ -12,10 +12,10 @@ export default function Company() {
   };
 
   return (
-    <div className='w-full flex  flex-col justify-center items-center mb-[3rem]'>
+    <div className='w-full flex  flex-col justify-center items-center mt-[6rem] mb-[3rem]'>
       <div>
         <h1
-          className='text-[1.3rem] text-[#696984s] font-[500]'
+          className='text-[1.6rem] text-[#696984s] font-[500]'
           style={{ fontFamily: 'poppins, sans-serif' }}
         >
           Trusted by 5,000+ Companies Worldwide
