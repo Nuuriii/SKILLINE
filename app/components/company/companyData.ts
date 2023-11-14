@@ -15,25 +15,37 @@ export const CompanyIcon = [
   {
     regular: GrayGoogle,
     hover: ColoredGoogle,
+    altRegular: 'gray-google',
+    altHover: 'colored-google',
   },
   {
     regular: GrayNetflix,
     hover: ColoredNetflix,
+    altRegular: 'gray-netflix',
+    altHover: 'colored-netflix',
   },
   {
     regular: GrayAirBnb,
     hover: ColoredAirBnb,
+    altRegular: 'gray-airbnb',
+    altHover: 'colored-airbnb',
   },
   {
     regular: GrayAmazon,
     hover: ColoredAmazon,
+    altRegular: 'gray-amazon',
+    altHover: 'colored-amazon',
   },
   {
     regular: GrayFacebook,
     hover: ColoredFacebook,
+    altRegular: 'gray-facebook',
+    altHover: 'colored-facebook',
   },
   {
     regular: GrayGrab,
     hover: ColoredGrab,
+    altRegular: 'gray-grab',
+    altHover: 'colored-grab',
   },
 ];

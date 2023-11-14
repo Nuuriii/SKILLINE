@@ -18,8 +18,16 @@ export default function Company() {
         <div className='mt-[2rem] flex items-center flex-wrap justify-center'>
           {CompanyIcon.map((item, index) => (
             <div className={styles.imgContainer} key={index}>
-              <Image className={styles.imgRegular} src={item.regular} alt='' />
-              <Image className={styles.imgHover} src={item.hover} alt='' />
+              <Image
+                className={styles.imgRegular}
+                src={item.regular}
+                alt={item.altRegular}
+              />
+              <Image
+                className={styles.imgHover}
+                src={item.hover}
+                alt={item.altHover}
+              />
             </div>
           ))}
         </div>
