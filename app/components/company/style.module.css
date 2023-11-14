@@ -1,0 +1,19 @@
+.imgRegular {
+  display: flex;
+  height: 2rem;
+  width: auto;
+}
+
+.imgHover {
+  display: none;
+  height: 2rem;
+  width: auto;
+}
+
+.imgContainer:hover .imgRegular {
+  display: none;
+}
+
+.imgContainer:hover .imgHover {
+  display: flex;
+}
