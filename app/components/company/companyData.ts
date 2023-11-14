@@ -1,15 +1,15 @@
-import GrayGoogle from '@/assets/company/googleGray.svg';
-import ColoredGoogle from '@/assets/company/googleColored.svg';
-import GrayNetflix from '@/assets/company/netflixGray.svg';
-import ColoredNetflix from '@/assets/company/netflixColored.svg';
-import GrayAmazon from '@/assets/company/amazonGray.svg';
-import GrayAirBnb from '@/assets/company/airBnbGray.svg';
-import ColoredAirBnb from '@/assets/company/airBnbColored.svg';
-import ColoredAmazon from '@/assets/company/amazonColored.svg';
-import GrayFacebook from '@/assets/company/facebookGray.svg';
-import ColoredFacebook from '@/assets/company/facebookColored.svg';
-import GrayGrab from '@/assets/company/grabGray.svg';
-import ColoredGrab from '@/assets/company/grabColored.svg';
+import GrayGoogle from '@/assets/company/googleGray.png';
+import ColoredGoogle from '@/assets/company/googleColored.png';
+import GrayNetflix from '@/assets/company/netflixGray.png';
+import ColoredNetflix from '@/assets/company/netflixColored.png';
+import GrayAmazon from '@/assets/company/amazonGray.png';
+import GrayAirBnb from '@/assets/company/airBnbGray.png';
+import ColoredAirBnb from '@/assets/company/airBnbColored.png';
+import ColoredAmazon from '@/assets/company/amazonColored.png';
+import GrayFacebook from '@/assets/company/facebookGray.png';
+import ColoredFacebook from '@/assets/company/facebookColored.png';
+import GrayGrab from '@/assets/company/grabGray.png';
+import ColoredGrab from '@/assets/company/grabColored.png';
 
 export const CompanyIcon = [
   {
