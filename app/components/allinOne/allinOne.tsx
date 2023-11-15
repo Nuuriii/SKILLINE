@@ -12,7 +12,7 @@ export default function AllinOne() {
               className='mb-[1rem] text-[1.5rem] xl:text-[2rem] text-[#2F327D] text-center font-[700]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
-              All-In-One{' '}
+              All-In-One
               <span className='text-[#F48C06]'> Cloud Software.</span>
             </h1>
             <p
