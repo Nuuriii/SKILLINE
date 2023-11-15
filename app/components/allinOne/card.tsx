@@ -9,7 +9,7 @@ interface CardProps {
 
 export default function Card({ icon, title, desc, index }: CardProps) {
   return (
-    <div className='relative flex flex-col items-center bg-[#FFFFFF] shadow-[0px_10px_60px_0px_#e2e8f0] mb-[3rem] px-[1rem] pt-[3rem] pb-[1rem] rounded-[1rem]'>
+    <div className='relative flex flex-col items-center bg-[#FFFFFF] shadow-[0px_10px_60px_0px_#e2e8f0] mb-[3rem] sm:mr-[1rem] lg:mr-[2.4rem] px-[1.2rem] pt-[3rem] pb-[1rem] lg:pb-[2.5rem] rounded-[1rem]'>
       <div
         className={`${
           index === 1
@@ -21,13 +21,20 @@ export default function Card({ icon, title, desc, index }: CardProps) {
       >
         <Image className='h-[1.6rem] w-auto' src={icon} alt='' />
       </div>
-      <h2
-        className='text-[#2F327D] font-[500] text-center'
-        style={{ fontFamily: 'poppins, sans-serif' }}
-      >
-        {title}
-      </h2>
-      <p className='hidden lg:flex'>{desc}</p>
+      <div className='flex flex-col items-center justify-between h-full'>
+        <h2
+          className='text-[#2F327D] h-[50%] flex justify-center items-center font-[500] text-center lg:text-[1.2rem] lg:mb-[0.5rem] xl:w-[15rem]'
+          style={{ fontFamily: 'poppins, sans-serif' }}
+        >
+          {title}
+        </h2>
+        <p
+          className='h-[50%] hidden lg:flex text-center font-[400] text-[#696984]'
+          style={{ fontFamily: 'poppins, sans-serif' }}
+        >
+          {desc}
+        </p>
+      </div>
     </div>
   );
 }
