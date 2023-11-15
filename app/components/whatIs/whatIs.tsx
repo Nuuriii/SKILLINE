@@ -7,15 +7,15 @@ export default function WhatIs() {
     <Padding>
       <div className='mt-[2rem]'>
         <div>
-          <div className='mb-[2rem]'>
+          <div className='mb-[2rem] flex flex-col items-center'>
             <h1
-              className='text-center text-[#2F327D] font-[600] text-[1.5rem]'
+              className='text-center text-[#2F327D] font-[600] text-[1.5rem] lg:text-[2rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               What is <span className='text-[#F48C06]'>Skilline?</span>
             </h1>
             <p
-              className='mt-[1rem] text-center text-[#696984]'
+              className='mt-[1rem] text-center text-[#696984] lg:text-[1.2rem] md:w-[55rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Skilline is a platform that allows educators to create online
@@ -28,7 +28,7 @@ export default function WhatIs() {
             {cardData.map((item, index) => (
               <Card
                 key={index}
-                bg={item.bgImg}
+                index={index}
                 title={item.title}
                 btnText={item.btnText}
               />
