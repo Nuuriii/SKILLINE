@@ -15,7 +15,7 @@ export default function WhatIs() {
               What is <span className='text-[#F48C06]'>Skilline?</span>
             </h1>
             <p
-              className='mt-[1rem] text-center text-[#696984] lg:text-[1.2rem] md:w-[55rem]'
+              className='mt-[1rem] text-center text-[#696984] lg:text-[1.2rem] lg:w-[55rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Skilline is a platform that allows educators to create online
