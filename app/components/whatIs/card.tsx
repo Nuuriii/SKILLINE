@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function Card({ bg, title, btnText }: CardProps) {
   return (
-    <div className={`lg:bg-[${bg}] mb-[1rem]`}>
+    <div className={`lg:bg-[${bg}] mb-[1rem] sm:mr-[2rem]`}>
       <div className='flex flex-col items-center'>
         <h1
           className='text-[#2F327D] lg:text-white mb-[0.2rem] font-[600]'

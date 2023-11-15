@@ -24,7 +24,7 @@ export default function WhatIs() {
               and provide students with feedback all in one place.
             </p>
           </div>
-          <div>
+          <div className='flex flex-col sm:flex-row sm:justify-center'>
             {cardData.map((item, index) => (
               <Card
                 key={index}
