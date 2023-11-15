@@ -28,6 +28,7 @@ export default function AllinOne() {
               <Card
                 key={index}
                 icon={item.icon}
+                alt={item.alt}
                 title={item.title}
                 desc={item.desc}
                 index={index}

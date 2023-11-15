@@ -36,4 +36,14 @@ describe('check text and img alt', () => {
     expect(secondItemDesc).toBeInTheDocument();
     expect(thirdItemDesc).toBeInTheDocument();
   });
+  test('test alt img', () => {
+    render(<AllinOne />);
+    const firstAltIcon = screen.getByAltText('file-icon');
+    const secondAltIcon = screen.getByAltText('calendar-icon');
+    const thirdAltIcon = screen.getByAltText('teams-icon');
+
+    expect(firstAltIcon).toBeVisible();
+    expect(secondAltIcon).toBeVisible();
+    expect(thirdAltIcon).toBeVisible();
+  });
 });
