@@ -5,11 +5,11 @@ import Card from './card';
 export default function AllinOne() {
   return (
     <Padding>
-      <div className='mt-[1.2rem]'>
+      <div className='mt-[4rem]'>
         <div>
           <div>
             <h1
-              className='mb-[1rem] text-[1.2rem] text-[#2F327D] text-center font-[700]'
+              className='mb-[1rem] text-[1.5rem] text-[#2F327D] text-center font-[700]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               All-In-One{' '}
@@ -23,13 +23,14 @@ export default function AllinOne() {
               the tools needed to run a successful school or office.
             </p>
           </div>
-          <div>
+          <div className='mt-[3rem]'>
             {cardData.map((item, index) => (
               <Card
                 key={index}
                 icon={item.icon}
                 title={item.title}
                 desc={item.desc}
+                index={index}
               />
             ))}
           </div>
