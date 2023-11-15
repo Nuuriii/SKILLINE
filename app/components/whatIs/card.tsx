@@ -1,19 +1,19 @@
-import Women from '@/assets/whatIs/women.png';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 interface CardProps {
   index: number;
+  bgImg: StaticImageData;
   title: string;
   btnText: string;
 }
 
-export default function Card({ index, title, btnText }: CardProps) {
+export default function Card({ index, bgImg, title, btnText }: CardProps) {
   return (
     <div
       className={`relative flex h-[15rem] w-[20rem] items-center justify-center mb-[1rem] sm:mr-[2rem] bg-women`}
     >
       <div className='absolute h-[100%] w-[100%] z-[-1]'>
-        <Image className='h-[100%] w-[100%]' src={Women} alt='' />
+        <Image className='h-[100%] w-[100%]' src={bgImg} alt='' />
       </div>
       <div className='flex flex-col items-center justify-center'>
         <h1

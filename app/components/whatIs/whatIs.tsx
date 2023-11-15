@@ -28,6 +28,7 @@ export default function WhatIs() {
             {cardData.map((item, index) => (
               <Card
                 key={index}
+                bgImg={item.bgImg}
                 index={index}
                 title={item.title}
                 btnText={item.btnText}
