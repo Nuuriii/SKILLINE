@@ -1,9 +1,11 @@
 import Padding from '@/app/components/padding/padding';
+import Image from 'next/image';
+import Meetings from '@/assets/features/meetings.png';
 
 export default function Features() {
   return (
     <Padding>
-      <div>
+      <div className='mt-[4rem]'>
         <div>
           <div className='flex flex-col items-center'>
             <h1
@@ -20,7 +22,10 @@ export default function Features() {
               efficient
             </p>
           </div>
-          <div></div>
+          <div className='mt-[1rem]'>
+            <Image src={Meetings} alt='' />
+            <div></div>
+          </div>
         </div>
       </div>
     </Padding>
