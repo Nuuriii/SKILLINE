@@ -8,8 +8,8 @@ import Play from '@/assets/header/play.png';
 export default function WithSkilline() {
   return (
     <Padding>
-      <div className='mt-[3rem] mb-[2rem]'>
-        <div className='flex items-center justify-center'>
+      <div className='mt-[9rem] mb-[2rem] flex min-[1488px]:justify-center'>
+        <div className='min-[1488px]:w-[70rem] flex items-center justify-center'>
           <div className='flex mr-[3rem] flex-col xl:w-[50%] items-center xl:items-start'>
             <h1
               className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left lg:text-[2rem] md:w-[38rem]'
