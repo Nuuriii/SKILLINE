@@ -1,13 +1,18 @@
 import Padding from '../padding/padding';
+import Class from '@/assets/withSkilline/class.jpeg';
+import Orange from '@/assets/withSkilline/orangeSquare.png';
+import Blue from '@/assets/withSkilline/blueSquare.png';
+import Image from 'next/image';
+import Play from '@/assets/header/play.png';
 
 export default function WithSkilline() {
   return (
     <Padding>
-      <div className='mt-[3rem]'>
-        <div>
-          <div className='flex flex-col items-center xl:items-start'>
+      <div className='mt-[3rem] mb-[2rem]'>
+        <div className='flex items-center justify-center'>
+          <div className='flex mr-[3rem] flex-col xl:w-[50%] items-center xl:items-start'>
             <h1
-              className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left md:w-[38rem]'
+              className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left lg:text-[2rem] md:w-[38rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Everything you can do in a physical classroom,{'  '}
@@ -28,7 +33,30 @@ export default function WithSkilline() {
               Learn more
             </button>
           </div>
-          <div></div>
+          <div className='hidden xl:flex rounded-[1rem] h-[20rem] xl:bg-[#171B4180] w-[auto] relative'>
+            <Image
+              className='absolute top-[-1rem] left-[-1rem] z-[-2]'
+              src={Blue}
+              alt=''
+            />
+            <Image
+              className='h-[100%] rounded-[1rem] w-[100%] z-[-1]'
+              src={Class}
+              alt=''
+            />
+            <button className='absolute top-[40%] left-[40%] hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'>
+              <Image
+                className='h-[3.7rem] w-auto mx-[1.5rem]'
+                src={Play}
+                alt='playIcon'
+              />
+            </button>
+            <Image
+              className='absolute z-[-2] h-[10rem] w-auto bottom-[-1rem] right-[-1rem]'
+              src={Orange}
+              alt=''
+            />
+          </div>
         </div>
       </div>
     </Padding>
