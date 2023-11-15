@@ -5,8 +5,8 @@ import Card from './card';
 export default function AllinOne() {
   return (
     <Padding>
-      <div className='mt-[4rem] xl:mt-[6rem]'>
-        <div>
+      <div className='mt-[4rem] xl:mt-[6rem] min-[1488px]:flex min-[1488px]:justify-center'>
+        <div className='min-[1488px]:w-[70rem]'>
           <div className='flex flex-col items-center'>
             <h1
               className='mb-[1rem] text-[1.5rem] xl:text-[2rem] text-[#2F327D] text-center font-[700]'
