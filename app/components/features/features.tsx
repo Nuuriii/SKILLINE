@@ -2,11 +2,13 @@ import Padding from '@/app/components/padding/padding';
 import Image from 'next/image';
 import Meetings from '@/assets/features/meetings.png';
 import { featureData } from './featureData';
+import GreenBall from '@/assets/features/greenBall.png';
+import PurpleBall from '@/assets/features/purpleBall.png';
 
 export default function Features() {
   return (
     <Padding>
-      <div className='mt-[4rem] xl:mt-[9rem] flex justify-center'>
+      <div className='mt-[4rem] xl:mt-[9rem] flex justify-center mb-[2rem]'>
         <div className='min-[500px]:w-[30rem] xl:w-[60rem] lg:w-[100%]'>
           <div className='flex flex-col items-center'>
             <h1
@@ -24,12 +26,25 @@ export default function Features() {
             </p>
           </div>
           <div className='mt-[3rem] lg:flex xl:justify-center xl:items-center'>
-            <Image
-              className='lg:h-[16rem] xl:h-[20rem] w-auto lg:mr-[3rem]'
-              src={Meetings}
-              alt='meetings-icon'
-            />
-            <div className='mt-[4.4rem] lg:mt-[0rem]'>
+            <div className='lg:mr-[3rem] relative'>
+              <Image
+                className='absolute top-[-2rem] h-[auto] w-[5rem] left-[2rem] z-[-1]'
+                src={GreenBall}
+                alt=''
+              />
+              <Image
+                className='lg:h-[16rem] xl:h-[20rem] lg:w-[auto] w-auto'
+                src={Meetings}
+                alt='meetings-icon'
+              />
+              <Image
+                className='absolute h-[auto] lg:w-[9rem] xl:w-[11rem] z-[-1] xl:bottom-[-2rem] right-[0.5rem] lg:bottom-[5rem]'
+                src={PurpleBall}
+                alt=''
+              />
+            </div>
+
+            <div className='mt-[4.4rem] lg:mt-[0rem] lg:w-[40%]'>
               <h2
                 className='text-[#2F327D] hidden lg:block text-center lg:text-left text-[1.3rem] font-[600] lg:text-[1.5rem] xl:w-[30rem]'
                 style={{ fontFamily: 'poppins, sans-serif' }}
