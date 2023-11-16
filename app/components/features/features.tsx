@@ -27,7 +27,7 @@ export default function Features() {
             <Image
               className='lg:h-[16rem] xl:h-[20rem] w-auto lg:mr-[3rem]'
               src={Meetings}
-              alt=''
+              alt='meetings-icon'
             />
             <div className='mt-[4.4rem] lg:mt-[0rem]'>
               <h2
@@ -47,7 +47,7 @@ export default function Features() {
                       <Image
                         className='h-[1.8rem] w-[1.8rem] lg:h-[1.4rem] lg:w-[1.4rem]'
                         src={item.icon}
-                        alt=''
+                        alt={item.alt}
                       />
                     </div>
                     <p

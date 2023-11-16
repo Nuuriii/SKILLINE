@@ -29,4 +29,16 @@ describe('test text and img alt', () => {
     expect(secondDescItem).toBeInTheDocument();
     expect(thirdDescItem).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Features />);
+    const meetingsIcon = screen.getByAltText('meetings-icon');
+    const gridIcon = screen.getByAltText('grid-icon');
+    const squareIcon = screen.getByAltText('square-icon');
+    const teamsIcon = screen.getByAltText('purple-teams-icon');
+
+    expect(meetingsIcon).toBeVisible();
+    expect(gridIcon).toBeVisible();
+    expect(squareIcon).toBeVisible();
+    expect(teamsIcon).toBeVisible();
+  });
 });
