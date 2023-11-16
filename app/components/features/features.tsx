@@ -45,7 +45,7 @@ export default function Features() {
                 alt='meetings-icon'
               />
               <Image
-                className='absolute z-[-1] bottom-[-1rem] right-[11rem] h-[1rem]'
+                className='absolute z-[-1] lg:bottom-[5rem] xl:bottom-[-1rem] right-[11rem] h-[1rem]'
                 src={RedBall}
                 alt=''
               />
