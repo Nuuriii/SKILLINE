@@ -6,7 +6,7 @@ import { featureData } from './featureData';
 export default function Features() {
   return (
     <Padding>
-      <div className='mt-[4rem] flex justify-center'>
+      <div className='mt-[4rem] xl:mt-[9rem] flex justify-center'>
         <div className='min-[500px]:w-[30rem] xl:w-[60rem] lg:w-[100%]'>
           <div className='flex flex-col items-center'>
             <h1
