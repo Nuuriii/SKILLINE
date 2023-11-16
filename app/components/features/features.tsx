@@ -25,13 +25,13 @@ export default function Features() {
           </div>
           <div className='mt-[3rem] lg:flex xl:items-center'>
             <Image
-              className='lg:h-[16rem] w-auto lg:mr-[3rem]'
+              className='lg:h-[16rem] xl:h-[21rem] w-auto lg:mr-[3rem]'
               src={Meetings}
               alt=''
             />
             <div className='mt-[4.4rem] lg:mt-[0rem]'>
               <h2
-                className='text-[#2F327D] hidden lg:block text-center lg:text-left text-[1.3rem] font-[600] lg:text-[1.5rem]'
+                className='text-[#2F327D] hidden lg:block text-center lg:text-left text-[1.3rem] font-[600] lg:text-[1.5rem] xl:text-[1.7rem] xl:w-[30rem]'
                 style={{ fontFamily: 'poppins, sans-serif' }}
               >
                 A <span className='text-[#F48C06]'>user interface </span>
@@ -51,7 +51,7 @@ export default function Features() {
                       />
                     </div>
                     <p
-                      className='lg:w-[85%] lg:text-[1.1rem] text-[#696984] text-center lg:text-left'
+                      className='lg:w-[85%] xl:w-[88%] lg:text-[1.1rem] xl:text-[1.2rem] text-[#696984] text-center lg:text-left'
                       style={{ fontFamily: 'poppins, sans-serif' }}
                     >
                       {item.decs}
