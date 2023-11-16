@@ -4,6 +4,8 @@ import Meetings from '@/assets/features/meetings.png';
 import { featureData } from './featureData';
 import GreenBall from '@/assets/features/greenBall.png';
 import PurpleBall from '@/assets/features/purpleBall.png';
+import BlueBall from '@/assets/features/blueBall.svg';
+import RedBall from '@/assets/features/redBall.svg';
 
 export default function Features() {
   return (
@@ -33,9 +35,19 @@ export default function Features() {
                 alt=''
               />
               <Image
+                className='absolute z-[-1] top-[-2rem] left-[7rem] h-[1rem]'
+                src={BlueBall}
+                alt=''
+              />
+              <Image
                 className='lg:h-[16rem] xl:h-[20rem] lg:w-[auto] w-auto'
                 src={Meetings}
                 alt='meetings-icon'
+              />
+              <Image
+                className='absolute z-[-1] bottom-[-1rem] right-[11rem] h-[1rem]'
+                src={RedBall}
+                alt=''
               />
               <Image
                 className='absolute h-[auto] lg:w-[9rem] xl:w-[11rem] z-[-1] xl:bottom-[-2rem] right-[0.5rem] lg:bottom-[5rem]'
