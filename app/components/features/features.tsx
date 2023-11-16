@@ -7,7 +7,7 @@ export default function Features() {
   return (
     <Padding>
       <div className='mt-[4rem] flex justify-center'>
-        <div className='min-[500px]:w-[30rem] lg:w-[100%]'>
+        <div className='min-[500px]:w-[30rem] xl:w-[60rem] lg:w-[100%]'>
           <div className='flex flex-col items-center'>
             <h1
               className='text-[#2F327D] text-[1.5rem] lg:text-[2rem] font-[600] text-center'
@@ -23,15 +23,15 @@ export default function Features() {
               efficient
             </p>
           </div>
-          <div className='mt-[3rem] lg:flex xl:items-center'>
+          <div className='mt-[3rem] lg:flex xl:justify-center xl:items-center'>
             <Image
-              className='lg:h-[16rem] xl:h-[21rem] w-auto lg:mr-[3rem]'
+              className='lg:h-[16rem] xl:h-[20rem] w-auto lg:mr-[3rem]'
               src={Meetings}
               alt=''
             />
             <div className='mt-[4.4rem] lg:mt-[0rem]'>
               <h2
-                className='text-[#2F327D] hidden lg:block text-center lg:text-left text-[1.3rem] font-[600] lg:text-[1.5rem] xl:text-[1.7rem] xl:w-[30rem]'
+                className='text-[#2F327D] hidden lg:block text-center lg:text-left text-[1.3rem] font-[600] lg:text-[1.5rem] xl:w-[30rem]'
                 style={{ fontFamily: 'poppins, sans-serif' }}
               >
                 A <span className='text-[#F48C06]'>user interface </span>
@@ -51,7 +51,7 @@ export default function Features() {
                       />
                     </div>
                     <p
-                      className='lg:w-[85%] xl:w-[88%] lg:text-[1.1rem] xl:text-[1.2rem] text-[#696984] text-center lg:text-left'
+                      className='lg:w-[85%] lg:text-[1.1rem] text-[#696984] text-center lg:text-left'
                       style={{ fontFamily: 'poppins, sans-serif' }}
                     >
                       {item.decs}
