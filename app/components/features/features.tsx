@@ -30,12 +30,12 @@ export default function Features() {
           <div className='mt-[3rem] lg:flex xl:justify-center xl:items-center'>
             <div className='lg:mr-[3rem] relative'>
               <Image
-                className='absolute top-[-2rem] h-[auto] w-[5rem] left-[2rem] z-[-1]'
+                className='hidden lg:block absolute top-[-2rem] h-[auto] w-[5rem] left-[2rem] z-[-1]'
                 src={GreenBall}
                 alt=''
               />
               <Image
-                className='absolute z-[-1] top-[-2rem] left-[7rem] h-[1rem]'
+                className='hidden lg:block absolute z-[-1] top-[-2rem] left-[7rem] h-[1rem]'
                 src={BlueBall}
                 alt=''
               />
@@ -45,12 +45,12 @@ export default function Features() {
                 alt='meetings-icon'
               />
               <Image
-                className='absolute z-[-1] lg:bottom-[5rem] xl:bottom-[-1rem] right-[11rem] h-[1rem]'
+                className='hidden lg:block absolute z-[-1] lg:bottom-[5rem] xl:bottom-[-1rem] right-[11rem] h-[1rem]'
                 src={RedBall}
                 alt=''
               />
               <Image
-                className='absolute h-[auto] lg:w-[9rem] xl:w-[11rem] z-[-1] xl:bottom-[-2rem] right-[0.5rem] lg:bottom-[5rem]'
+                className='hidden lg:block absolute h-[auto] lg:w-[9rem] xl:w-[11rem] z-[-1] xl:bottom-[-2rem] right-[0.5rem] lg:bottom-[5rem]'
                 src={PurpleBall}
                 alt=''
               />
