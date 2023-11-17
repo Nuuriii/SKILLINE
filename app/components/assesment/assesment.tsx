@@ -6,6 +6,9 @@ import Close from '@/assets/assesment/close-icon.png';
 import Success from '@/assets/assesment/success.png';
 import Purple from '@/assets/features/purpleBall.png';
 import GreenTransparent from '@/assets/assesment/green-transparent.svg';
+import Orange from '@/assets/withSkilline/smallOrange.svg';
+import Green from '@/assets/features/greenBall.png';
+import Red from '@/assets/features/redBall.svg';
 
 export default function Assesment() {
   return (
@@ -17,6 +20,11 @@ export default function Assesment() {
               className='h-[19rem] xl:h-[24rem] w-[16rem] xl:w-[21rem] p-[1rem] xl:p-[1.2rem] bg-[#FFFFFF] shadow-[0px_9px_43px_0px_#282b6f1a] relative rounded-[1rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
+              <Image
+                className='hidden xl:flex h-[1.3rem] w-[auto] absolute left-[4rem] top-[-2.3rem]'
+                src={Orange}
+                alt=''
+              />
               <Image
                 className='hidden xl:flex h-[6rem] w-[auto] absolute left-[-2rem] top-[-1.3rem] z-[-3]'
                 src={Purple}
@@ -30,6 +38,16 @@ export default function Assesment() {
               <Image
                 className='hidden xl:flex absolute bg-white right-[-1rem] top-[1.6rem] z-[1] h-[3.2rem] w-[3.2rem] shadow-[0px_0px_20px_1px_#edf2f7] rounded-[100%]'
                 src={Success}
+                alt=''
+              />
+              <Image
+                className='hidden xl:flex h-[1.2rem] w-[auto] absolute right-[-3rem] top-[14rem] z-[-3]'
+                src={Red}
+                alt=''
+              />
+              <Image
+                className='hidden xl:flex h-[1.2rem] w-[auto] absolute left-[-1rem] bottom-[-2.5rem] z-[-3]'
+                src={Green}
                 alt=''
               />
               <h3 className='h-[2rem] w-[6.5rem] flex justify-center items-center rounded-[2rem] bg-[#CDD8FF] text-[0.8rem] text-[#717FB0] xl:text-[1rem] xl:h-[2.3rem] xl:w-[8rem]'>
