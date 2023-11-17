@@ -23,32 +23,32 @@ export default function Assesment() {
               <Image
                 className='hidden xl:flex h-[1.3rem] w-[auto] absolute left-[4rem] top-[-2.3rem]'
                 src={Orange}
-                alt=''
+                alt='orange-icon'
               />
               <Image
                 className='hidden xl:flex h-[6rem] w-[auto] absolute left-[-2rem] top-[-1.3rem] z-[-3]'
                 src={Purple}
-                alt=''
+                alt='purple-icon'
               />
               <Image
                 className='bg-white hidden xl:flex absolute right-[1rem] top-[-1rem] z-[1] h-[3.2rem] w-[3.2rem] shadow-[0px_0px_20px_1px_#edf2f7] rounded-[100%]'
                 src={Close}
-                alt=''
+                alt='close-icon'
               />
               <Image
                 className='hidden xl:flex absolute bg-white right-[-1rem] top-[1.6rem] z-[1] h-[3.2rem] w-[3.2rem] shadow-[0px_0px_20px_1px_#edf2f7] rounded-[100%]'
                 src={Success}
-                alt=''
+                alt='success-icon'
               />
               <Image
                 className='hidden xl:flex h-[1.2rem] w-[auto] absolute right-[-3rem] top-[14rem] z-[-3]'
                 src={Red}
-                alt=''
+                alt='red-icon'
               />
               <Image
                 className='hidden xl:flex h-[1.2rem] w-[auto] absolute left-[-1rem] bottom-[-2.5rem] z-[-3]'
                 src={Green}
-                alt=''
+                alt='green-icon'
               />
               <h3 className='h-[2rem] w-[6.5rem] flex justify-center items-center rounded-[2rem] bg-[#CDD8FF] text-[0.8rem] text-[#717FB0] xl:text-[1rem] xl:h-[2.3rem] xl:w-[8rem]'>
                 Question 1
@@ -59,15 +59,19 @@ export default function Assesment() {
               <Image
                 className='mt-[1.4rem] z-[1] xl:h-[12rem] xl:w-auto absolute rounded-[1rem]'
                 src={River}
-                alt=''
+                alt='river-img'
               />
               <div className='absolute right-[0rem] bottom-[-1rem] h-[4rem] w-[13rem] rounded-[1rem] z-[2] shadow-[0px_18px_52px_0px_#282b6f14] bg-[#FFFFFF] flex items-center px-[1rem] justify-center hover:scale-[1.05] duration-[0.3s]'>
                 <div className='relative mr-[1rem]'>
-                  <Image className='h-[5.5rem] w-auto' src={Plane} alt='' />
+                  <Image
+                    className='h-[5.5rem] w-auto'
+                    src={Plane}
+                    alt='plane-icon'
+                  />
                   <Image
                     className='absolute h-[2.5rem] z-[-1] top-[1.6rem] left-[-0.1rem]'
                     src={GreenTransparent}
-                    alt=''
+                    alt='big-green-transparent'
                   />
                 </div>
                 <div className='relative'>
@@ -77,7 +81,7 @@ export default function Assesment() {
                   <Image
                     className='absolute h-[1.4rem] z-[-1] bottom-[-0.3rem] right-[-1.6rem]'
                     src={GreenTransparent}
-                    alt=''
+                    alt='small-green-transparent'
                   />
                 </div>
               </div>

@@ -22,4 +22,28 @@ describe('test text and img alt', () => {
     expect(h1).toHaveTextContent(title);
     expect(desc).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Assesment />);
+    const orange = screen.getByAltText('orange-icon');
+    const purple = screen.getByAltText('purple-icon');
+    const close = screen.getByAltText('close-icon');
+    const success = screen.getByAltText('success-icon');
+    const red = screen.getByAltText('red-icon');
+    const green = screen.getByAltText('green-icon');
+    const river = screen.getByAltText('river-img');
+    const plane = screen.getByAltText('plane-icon');
+    const bigGreen = screen.getByAltText('big-green-transparent');
+    const smallGreen = screen.getByAltText('small-green-transparent');
+
+    expect(orange).toBeVisible();
+    expect(purple).toBeVisible();
+    expect(close).toBeVisible();
+    expect(success).toBeVisible();
+    expect(red).toBeVisible();
+    expect(green).toBeVisible();
+    expect(river).toBeVisible();
+    expect(plane).toBeVisible();
+    expect(bigGreen).toBeVisible();
+    expect(smallGreen).toBeVisible();
+  });
 });
