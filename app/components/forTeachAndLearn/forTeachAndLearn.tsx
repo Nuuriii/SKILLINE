@@ -28,7 +28,7 @@ export default function ForTeachAndLearn() {
             <Image
               className='h-[15rem] lg:h-[20rem] xl:h-[22rem] w-auto'
               src={Student}
-              alt=''
+              alt='student-img'
             />
           </div>
         </div>
