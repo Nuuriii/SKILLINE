@@ -6,7 +6,7 @@ export default function ForTeachAndLearn() {
   return (
     <Padding>
       <div className='mt-[1rem] lg:mt-[8rem] flex justify-center'>
-        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem]  lg:w-[100%]'>
+        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] lg:w-[100%] min-[1488px]:w-[70rem]'>
           <div className='flex flex-col items-center lg:items-start lg:mr-[6rem] lg:w-[50%]'>
             <h1
               className='text-[#2F327D] font-[600] text-center lg:text-left text-[1.5rem] lg:text-[2rem] w-[16rem] lg:w-[20rem]'
