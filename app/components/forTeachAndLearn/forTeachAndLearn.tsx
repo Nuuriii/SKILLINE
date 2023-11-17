@@ -26,7 +26,7 @@ export default function ForTeachAndLearn() {
           </div>
           <div className='mt-[1rem] lg:w-[50%] flex justify-center'>
             <Image
-              className='h-[15rem] lg:h-[20rem] xl:h-[22rem] w-auto'
+              className='h-[15rem] lg:h-[20rem] xl:h-[25rem] w-auto'
               src={Student}
               alt='student-img'
             />
