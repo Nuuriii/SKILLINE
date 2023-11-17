@@ -1,6 +1,7 @@
 import Padding from '../padding/padding';
 import Image from 'next/image';
 import River from '@/assets/assesment/river.png';
+import Plane from '@/assets/assesment/plane.svg';
 
 export default function Assesment() {
   return (
@@ -19,10 +20,20 @@ export default function Assesment() {
                 True or false? This play takes place in Italy
               </p>
               <Image
-                className='mt-[1.4rem] absolute rounded-[1rem]'
+                className='mt-[1.4rem] z-[1] absolute rounded-[1rem]'
                 src={River}
                 alt=''
               />
+              <div className='absolute right-[0rem] bottom-[-1rem] h-[4rem] w-[13rem] rounded-[1rem] z-[2] shadow-[0px_18px_52px_0px_#282b6f14] bg-[#FFFFFF] flex items-center px-[1rem] justify-center'>
+                <Image
+                  className='h-[2.4rem] w-auto mr-[1rem]'
+                  src={Plane}
+                  alt=''
+                />
+                <p className='text-[#41BE90] font-[600] text-[0.8rem]'>
+                  Your answer was sent successfully
+                </p>
+              </div>
             </div>
           </div>
           <div
