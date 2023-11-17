@@ -84,10 +84,10 @@ export default function Assesment() {
             </div>
           </div>
           <div
-            className='mt-[2rem] flex flex-col items-center lg:items-start lg:w-[50%]'
+            className='mt-[3rem] lg:mt-0 flex flex-col items-center lg:items-start lg:w-[50%]'
             style={{ fontFamily: 'poppins, sans-serif' }}
           >
-            <h1 className='text-[#2F327D] font-[600] text-[1.5rem] lg:w-[25rem] lg:text-left lg:text-[2rem]'>
+            <h1 className='text-[#2F327D] font-[600] text-[1.5rem] text-center lg:w-[25rem] lg:text-left lg:text-[2rem]'>
               Assessments, <span className='text-[#F48C06]'>Quizzes</span>,
               Tests
             </h1>
