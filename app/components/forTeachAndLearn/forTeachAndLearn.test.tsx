@@ -14,4 +14,10 @@ describe('test text & img alt', () => {
     expect(h1Element).toHaveTextContent(titleText);
     expect(desc).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<ForTeachAndLearn />);
+    const studentImage = screen.getByAltText('student-img');
+
+    expect(studentImage).toBeVisible();
+  });
 });
