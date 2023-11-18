@@ -8,8 +8,8 @@ import OneDrive from '@/assets/integrations/oneDrive.svg';
 export default function Integrations() {
   return (
     <Padding>
-      <div className='mt-[6rem]'>
-        <div className='flex flex-col items-center'>
+      <div className='mt-[6rem] flex justify-center '>
+        <div className='min-[500px]:w-[30rem] flex flex-col items-center'>
           <div className='h-[10rem] w-[13rem] flex flex-wrap justify-between'>
             <Image className='h-[5rem] w-auto' src={OneDrive} alt='' />
             <Image className='h-[4.5rem] w-auto' src={Dropbox} alt='' />
