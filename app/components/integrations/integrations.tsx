@@ -17,22 +17,22 @@ export default function Integrations() {
             <Image
               className='h-[5rem] lg:h-[7rem] xl:h-[9rem] w-auto'
               src={OneDrive}
-              alt=''
+              alt='one-drive-icon'
             />
             <Image
               className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto'
               src={Dropbox}
-              alt=''
+              alt='dropbox-icon'
             />
             <Image
               className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
               src={Drive}
-              alt=''
+              alt='drive-icon'
             />
             <Image
               className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
               src={Teams}
-              alt=''
+              alt='teams-icon'
             />
           </div>
           <div className='mt-[3rem] flex flex-col items-center lg:w-[50%] lg:items-start'>

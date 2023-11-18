@@ -14,5 +14,18 @@ describe('test text & img alt', () => {
     expect(h1).toBeInTheDocument();
     expect(h1).toHaveTextContent(title);
     expect(desc).toBeInTheDocument();
+    expect(btnText).toBeInTheDocument();
+  });
+  test('test img alt', () => {
+    render(<Integrations />);
+    const oneDrive = screen.getByAltText('one-drive-icon');
+    const dropBox = screen.getByAltText('dropbox-icon');
+    const googleDrive = screen.getByAltText('drive-icon');
+    const microsoftTeams = screen.getByAltText('teams-icon');
+
+    expect(oneDrive).toBeVisible();
+    expect(dropBox).toBeVisible();
+    expect(googleDrive).toBeVisible();
+    expect(microsoftTeams).toBeVisible();
   });
 });
