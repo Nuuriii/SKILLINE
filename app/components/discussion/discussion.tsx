@@ -9,7 +9,7 @@ export default function Discussion() {
         className='mt-[7rem] flex justify-center'
         style={{ fontFamily: 'poppins, sans-serif' }}
       >
-        <div className='min-[500px]:w-[30rem] lg:w-full'>
+        <div className='min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-full'>
           <div className='flex flex-col items-center lg:flex-row lg:justify-between'>
             <div>
               <Image
