@@ -13,24 +13,24 @@ export default function Integrations() {
         style={{ fontFamily: 'poppins, sans-serif' }}
       >
         <div className='min-[500px]:w-[30rem] lg:w-[100%] flex flex-col lg:flex-row items-center lg:justify-between'>
-          <div className='h-[10rem] w-[13rem] lg:w-[15rem] flex flex-wrap justify-between'>
+          <div className='h-auto xl:w-[25rem] grid grid-cols-2 items-center justify-items-center'>
             <Image
-              className='h-[5rem] lg:h-[7rem] w-auto'
+              className='h-[5rem] lg:h-[7rem] xl:h-[9rem] w-auto'
               src={OneDrive}
               alt=''
             />
             <Image
-              className='h-[4.5rem] lg:h-[5rem] w-auto'
+              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto'
               src={Dropbox}
               alt=''
             />
             <Image
-              className='h-[4.5rem] lg:h-[5rem] w-auto mt-[1.5rem]'
+              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
               src={Drive}
               alt=''
             />
             <Image
-              className='h-[4.5rem] lg:h-[5rem] w-auto mt-[1.5rem]'
+              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
               src={Teams}
               alt=''
             />
@@ -40,11 +40,11 @@ export default function Integrations() {
               <span className='h-[1px] w-[4rem] bg-[#525596] mr-[1.2rem]'></span>
               <h3 className='text-[#525596] font-[400]'>INTEGRATIONS</h3>
             </div>
-            <h1 className='lg:mt-[1rem] text-[#2F327D] text-[1.5rem] lg:text-[2rem] font-[600] text-center lg:text-left'>
+            <h1 className='lg:mt-[1rem] text-[#525596] text-[1.5rem] lg:text-[2rem] font-[600] text-center lg:text-left'>
               200+ educational tools and platform{' '}
               <span className='text-[#F48C06]'>integrations</span>
             </h1>
-            <p className='text-[#696984] text-center lg:text-left mt-[1rem]'>
+            <p className='text-[#696984] text-center xl:text-[1.2rem] lg:text-left mt-[1rem]'>
               Schoology has every tool your classroom needs and comes
               pre-integrated with more than 200+ tools, student information
               systems (SIS), and education platforms.
