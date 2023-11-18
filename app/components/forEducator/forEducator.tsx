@@ -25,7 +25,7 @@ export default function ForEducator() {
             <Image
               className='h-[13rem] lg:h-[22rem] xl:h-[25rem] w-auto'
               src={GradeBook}
-              alt=''
+              alt='gradebook-img'
             />
           </div>
         </div>

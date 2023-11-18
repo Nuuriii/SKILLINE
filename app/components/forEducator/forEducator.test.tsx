@@ -14,4 +14,10 @@ describe('test text and img alt', () => {
     expect(h1).toHaveTextContent(title);
     expect(desc).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<ForEducator />);
+    const gradeBook = screen.getByAltText('gradebook-img');
+
+    expect(gradeBook).toBeVisible();
+  });
 });
