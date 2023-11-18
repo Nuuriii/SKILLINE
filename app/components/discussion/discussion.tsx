@@ -5,8 +5,11 @@ import DiscussionImg from '@/assets/discussion/discussion.png';
 export default function Discussion() {
   return (
     <Padding>
-      <div className='mt-[7rem]' style={{ fontFamily: 'poppins, sans-serif' }}>
-        <div>
+      <div
+        className='mt-[7rem] flex justify-center'
+        style={{ fontFamily: 'poppins, sans-serif' }}
+      >
+        <div className='min-[500px]:w-[30rem]'>
           <div className='flex flex-col items-center'>
             <div>
               <Image className='h-[13rem] w-auto' src={DiscussionImg} alt='' />
