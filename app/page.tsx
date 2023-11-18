@@ -9,6 +9,7 @@ import Features from './components/features/features';
 import ForTeachAndLearn from './components/forTeachAndLearn/forTeachAndLearn';
 import Assesment from './components/assesment/assesment';
 import ForEducator from './components/forEducator/forEducator';
+import Discussion from './components/discussion/discussion';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <ForTeachAndLearn />
         <Assesment />
         <ForEducator />
+        <Discussion />
       </main>
     </>
   );
