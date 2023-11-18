@@ -8,6 +8,7 @@ import WithSkilline from './components/withSKilline/withSkilline';
 import Features from './components/features/features';
 import ForTeachAndLearn from './components/forTeachAndLearn/forTeachAndLearn';
 import Assesment from './components/assesment/assesment';
+import ForEducator from './components/forEducator/forEducator';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Features />
         <ForTeachAndLearn />
         <Assesment />
+        <ForEducator />
       </main>
     </>
   );
