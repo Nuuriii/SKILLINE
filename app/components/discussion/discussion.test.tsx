@@ -14,4 +14,10 @@ describe('test text & test img alt', () => {
     expect(h1).toHaveTextContent(title);
     expect(desc).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Discussion />);
+    const discussionImg = screen.getByAltText('discussion-img');
+
+    expect(discussionImg).toBeVisible();
+  });
 });

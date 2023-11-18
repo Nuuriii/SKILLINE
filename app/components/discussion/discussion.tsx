@@ -15,7 +15,7 @@ export default function Discussion() {
               <Image
                 className='h-[13rem] lg:h-[17rem] xl:h-[23rem] w-auto'
                 src={DiscussionImg}
-                alt=''
+                alt='discussion-img'
               />
             </div>
             <div className='mt-[1.2rem] lg:mt-0 lg:w-[50%] xl:w-[40%]'>
