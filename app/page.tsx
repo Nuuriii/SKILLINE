@@ -11,6 +11,7 @@ import Assesment from './components/assesment/assesment';
 import ForEducator from './components/forEducator/forEducator';
 import Discussion from './components/discussion/discussion';
 import Integrations from './components/integrations/integrations';
+import Testimonial from './components/testimonial/testimonial';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <ForEducator />
         <Discussion />
         <Integrations />
+        <Testimonial />
       </main>
     </>
   );
