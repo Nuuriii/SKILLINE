@@ -10,7 +10,7 @@ export default function ForEducator() {
           className='min-[500px]:w-[30rem] lg:w-[100%] flex items-center flex-col lg:flex-row lg:justify-between'
           style={{ fontFamily: 'poppins, sans-serif' }}
         >
-          <div className='lg:w-[50%] lg:mr-[4rem]'>
+          <div className='lg:w-[50%] xl:w-[45%] lg:mr-[4rem]'>
             <h1 className='lg:w-[20rem] text-[#2F327D] font-[600] text-[1.5rem] lg:text-[2rem] text-center lg:text-left'>
               <span className='text-[#F48C06]'>Class Management</span> Tools for
               Educators
@@ -21,9 +21,9 @@ export default function ForEducator() {
               can review and grade tests and quizzes in real-time.
             </p>
           </div>
-          <div className='mt-[1rem] flex justify-center items-center'>
+          <div className='mt-[1rem] flex justify-center'>
             <Image
-              className='h-[13rem] lg:h-[22rem] w-auto'
+              className='h-[13rem] lg:h-[22rem] xl:h-[25rem] w-auto'
               src={GradeBook}
               alt=''
             />
