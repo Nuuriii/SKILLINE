@@ -7,7 +7,7 @@ export default function ForEducator() {
     <Padding>
       <div className='mt-[6rem] flex justify-center'>
         <div
-          className='min-[500px]:w-[30rem] lg:w-[100%] flex items-center flex-col lg:flex-row lg:justify-between'
+          className='min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%] flex items-center flex-col lg:flex-row lg:justify-between'
           style={{ fontFamily: 'poppins, sans-serif' }}
         >
           <div className='lg:w-[50%] xl:w-[45%] lg:mr-[4rem]'>
