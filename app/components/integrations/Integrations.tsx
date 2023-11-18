@@ -49,7 +49,7 @@ export default function Integrations() {
               pre-integrated with more than 200+ tools, student information
               systems (SIS), and education platforms.
             </p>
-            <button className='mt-[2rem] rounded-[2rem] py-[0.5rem] px-[1.5rem] text-[#F48C06] border-[1px] border-solid border-[#F48C06] font-[400]'>
+            <button className='mt-[2rem] rounded-[2rem] py-[0.7rem] px-[1.5rem] text-[#F48C06] border-[1px] border-solid border-[#F48C06] font-[400] hover:bg-[#F48C06] hover:text-white hover:scale-[1.05] active:scale-[0.99] duration-[0.3s]'>
               See All Integrations
             </button>
           </div>
