@@ -2,11 +2,15 @@ import Padding from '../padding/padding';
 import Image from 'next/image';
 import ArrowRight from '@/assets/testimonial/arrow-right.svg';
 import SmileGirl from '@/assets/testimonial/smiling-woman.png';
+import StarGroup from '@/assets/testimonial/star-group.svg';
 
 export default function Testimonial() {
   return (
     <Padding>
-      <div className='mt-[6rem]' style={{ fontFamily: 'nunito, sans-serif' }}>
+      <div
+        className='mt-[6rem] mb-[6rem]'
+        style={{ fontFamily: 'nunito, sans-serif' }}
+      >
         <div className='flex flex-col items-center'>
           <div className='flex flex-col items-center'>
             <h1 className='text-[#2F327D] text-center font-[600] text-[1.5rem]'>
@@ -34,12 +38,28 @@ export default function Testimonial() {
               </div>
             </button>
           </div>
-          <div className='mt-[3rem]'>
+          <div className='mt-[11rem] relative  w-full flex justify-center'>
             <Image
-              className='h-[10rem] w-auto rounded-[0.5rem]'
+              className='absolute top-[-7rem] z-[-1] lg:static h-[10rem] w-auto rounded-[0.5rem]'
               src={SmileGirl}
               alt=''
             />
+            <div className='lg:absolute top-[8rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] rounded-[1rem]'>
+              <div>
+                <p className='text-[#5F5F7E] font-[400]'>
+                  {`"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking."`}
+                </p>
+              </div>
+              <div className='mt-[2rem] flex items-center justify-between'>
+                <h2 className='text-[#5F5F7E] font-[600]'>Gloria Rose</h2>
+                <div className='flex flex-col items-end'>
+                  <Image className='h-auto w-[5rem]' src={StarGroup} alt='' />
+                  <p className='mt-[0.3rem] text-[0.7rem] text-[#80819A] font-[600]'>
+                    12 reviews at Yelp
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
