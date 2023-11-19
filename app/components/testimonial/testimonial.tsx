@@ -11,7 +11,7 @@ export default function Testimonial() {
         className='mt-[6rem] mb-[6rem] flex justify-center'
         style={{ fontFamily: 'nunito, sans-serif' }}
       >
-        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] lg:w-[100%]'>
+        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%]'>
           <div className='flex flex-col items-center lg:items-start'>
             <h1 className='text-[#2F327D] text-center lg:text-left font-[600] text-[1.5rem] lg:text-[2rem]'>
               What They Say?
