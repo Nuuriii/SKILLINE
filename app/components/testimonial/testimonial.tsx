@@ -16,7 +16,10 @@ export default function Testimonial() {
             <h1 className='text-[#2F327D] text-center lg:text-left font-[600] text-[1.5rem] lg:text-[2rem]'>
               What They Say?
             </h1>
-            <p className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'>
+            <p
+              data-testid='first-paraph'
+              className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'
+            >
               Skilline has got more than 100k positive ratings from our users
               around the world.
             </p>
