@@ -8,23 +8,23 @@ export default function Testimonial() {
   return (
     <Padding>
       <div
-        className='mt-[6rem] mb-[6rem]'
+        className='mt-[6rem] mb-[6rem] flex justify-center'
         style={{ fontFamily: 'nunito, sans-serif' }}
       >
-        <div className='flex flex-col items-center'>
-          <div className='flex flex-col items-center'>
-            <h1 className='text-[#2F327D] text-center font-[600] text-[1.5rem]'>
+        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] lg:w-[100%]'>
+          <div className='flex flex-col items-center lg:items-start'>
+            <h1 className='text-[#2F327D] text-center lg:text-left font-[600] text-[1.5rem] lg:text-[2rem]'>
               What They Say?
             </h1>
-            <p className='text-[#696984] mt-[1rem] text-center'>
+            <p className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'>
               Skilline has got more than 100k positive ratings from our users
               around the world.
             </p>
-            <p className='text-[#696984] mt-[1rem] text-center'>
+            <p className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'>
               Some of the students and teachers were greatly helped by the
               Skilline.
             </p>
-            <p className='text-[#696984] mt-[1.6rem] text-center'>
+            <p className='text-[#696984] lg:text-[1.2rem] mt-[1.6rem] text-center lg:text-left'>
               Are you too? Please give your assessment
             </p>
             <button className=' text-[#F48C06] relative mt-[2rem] h-[3rem] w-[17rem] rounded-[2rem] flex items-center justify-center lg:justify-start border-[1px] border-solid border-[#F48C06] lg:pl-[1.5rem] hover:text-[#fff] hover:bg-[#F48C06] hover:scale-[1.05] active:scale-[0.99] duration-[0.3s]'>
@@ -38,13 +38,13 @@ export default function Testimonial() {
               </div>
             </button>
           </div>
-          <div className='mt-[11rem] relative  w-full flex justify-center'>
+          <div className='mt-[11rem] lg:mt-[0rem] relative  w-full flex justify-center'>
             <Image
-              className='absolute top-[-7rem] z-[-1] lg:static h-[10rem] w-auto rounded-[0.5rem]'
+              className='absolute top-[-7rem] z-[-1] lg:static h-[10rem] lg:h-[23rem] w-auto rounded-[0.5rem]'
               src={SmileGirl}
               alt=''
             />
-            <div className='lg:absolute top-[8rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] rounded-[1rem]'>
+            <div className='min-[500px]:w-[20rem] lg:absolute top-[8rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] rounded-[1rem]'>
               <div>
                 <p className='text-[#5F5F7E] font-[400]'>
                   {`"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking."`}
