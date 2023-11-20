@@ -20,7 +20,7 @@ export default function Header() {
       />
       <div className='w-full bg-[#FFF2E1] lg:bg-transparent min-[1488px]:w-[70rem]'>
         <Padding>
-          <div className='flex pt-[4rem] lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] md:h-[42rem] lg:-[100vh] min-[1488px]:h-[45rem]'>
+          <div className='flex pt-[4rem] lg:pt-0 flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between  h-[100vh] md:h-[42rem] lg:h-[100vh] min-[1488px]:h-[45rem]'>
             <div className='flex lg:hidden'>
               <Image
                 className='shadow-[ 0px 4px 100px 0px rgba(29, 28, 24, 0.25)] h-[13rem] w-auto md:h-[18rem]'
