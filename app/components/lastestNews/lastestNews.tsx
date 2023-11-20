@@ -7,7 +7,7 @@ export default function LastestNews() {
   return (
     <Padding>
       <div className='lg:mt-[11rem] flex justify-center'>
-        <div className='min-[500px]:w-[30rem] lg:w-full'>
+        <div className='min-[500px]:w-[30rem] lg:w-full min-[1444px]:w-[70rem]'>
           <div
             className='flex flex-col items-center'
             style={{ fontFamily: 'nunito, sans-serif' }}
