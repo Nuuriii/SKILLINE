@@ -54,8 +54,8 @@ export default function Testimonial() {
               src={SmileGirl}
               alt='smile-girl'
             />
-            <div className='min-[500px]:w-[20rem] xl:w-[28rem] lg:absolute top-[18rem] right-[3rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] xl:px-[1.5rem] xl:border-l-[8px] border-solid border-[#F67766] rounded-[1rem]'>
-              <div className='xl:pl-[1rem]  border-l-[1px] border-solid border-[#BDBDD1]'>
+            <div className='min-[500px]:w-[20rem] lg:w-[22rem] xl:w-[28rem] lg:absolute lg:top-[12rem] lg:right-[1rem] xl:top-[18rem] xl:right-[3rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] xl:px-[1.5rem] xl:border-l-[8px] border-solid border-[#F67766] rounded-[1rem]'>
+              <div className='xl:pl-[1rem]  xl:border-l-[1px] border-solid border-[#BDBDD1]'>
                 <p className='text-[#5F5F7E] font-[400]'>
                   {`"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking."`}
                 </p>
