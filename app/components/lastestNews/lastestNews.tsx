@@ -32,21 +32,24 @@ export default function LastestNews() {
                 />
               ))}
             </div>
-            <div>
+            <div className='mt-[3rem]'>
               {smallNews.map((item, index) => (
-                <div key={index} className='flex'>
-                  <div className='w-[60%] relative'>
-                    <Image src={item.img} alt='' />
+                <div key={index} className='flex mb-[1.5rem]'>
+                  <div className='w-[40%] mr-[1rem] relative'>
+                    <Image className='rounded-[1rem]' src={item.img} alt='' />
                     <p className='hidden lg:flex text-[0.4rem] absolute bg-[#F4C467] text-[#252641]'>
                       {item.label}
                     </p>
                   </div>
-                  <div className='flex flex-col'>
-                    <p className='py-[0.5rem] px-[1rem] w-auto lg:hidden text-[0.9rem] bg-[#F4C467] text-[#252641]'>
+                  <div className='w-[60%] flex flex-col items-start'>
+                    <p className='mb-[0.5rem] py-[0.2rem] px-[0.7rem] rounded-[2rem] w-auto lg:hidden text-[0.7rem] bg-[#F4C467] text-[#252641]'>
                       {item.label}
                     </p>
-                    <h2>{item.title}</h2>
-                    <p>{item.desc}</p>
+
+                    <h2 className='mb-[0.5rem] text-[0.8rem] font-[600]'>
+                      {item.title}
+                    </h2>
+                    <p className='text-[0.7rem]'>{item.desc}</p>
                   </div>
                 </div>
               ))}
