@@ -15,7 +15,7 @@ export default function Footer() {
               <Image
                 className='h-[3rem] lg:h-[4rem] w-auto pr-[2rem] border-r-[1px] border-solid border-[#626381]'
                 src={Icon}
-                alt=''
+                alt='icon'
               />
               <h1 className='pl-[2rem] lg:text-[1.2rem] text-[#FFFFFF] font-[600] w-[9rem] lg:w-[11rem]'>
                 Virtual Class for Zoom
@@ -28,7 +28,7 @@ export default function Footer() {
               <label
                 style={{ fontFamily: 'poppins, sans-serif' }}
                 className='mb-[1rem] text-[#B2B3CF] text-center lg:text-[1.2rem]'
-                htmlFor=''
+                htmlFor='email'
               >
                 Subscribe to get our Newsletter
               </label>
@@ -36,6 +36,7 @@ export default function Footer() {
                 <input
                   className='px-[0.5rem] py-[0.5rem] rounded-[2rem] placeholder:text-[#83839A] border-[1px] border-solid text-center lg:text-left lg:w-[66%] lg:px-[0.8rem] border-[#83839A] bg-transparent focus:bg-white'
                   type='email'
+                  id='email'
                   placeholder='Your Email'
                   required
                 />
