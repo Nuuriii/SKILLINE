@@ -12,6 +12,7 @@ import ForEducator from './components/forEducator/forEducator';
 import Discussion from './components/discussion/discussion';
 import Integrations from './components/integrations/integrations';
 import Testimonial from './components/testimonial/testimonial';
+import LastestNews from './components/lastestNews/lastestNews';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Discussion />
         <Integrations />
         <Testimonial />
+        <LastestNews />
       </main>
     </>
   );
