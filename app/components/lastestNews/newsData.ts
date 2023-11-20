@@ -17,6 +17,7 @@ export const bigNews = [
 export const smallNews = [
   {
     img: KidLearning,
+    alt: 'kid-learning',
     label: 'PRESS RELEASE',
     title:
       'Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand',
@@ -24,6 +25,7 @@ export const smallNews = [
   },
   {
     img: MeetWithTeams,
+    alt: 'meet-with-teams',
     label: 'NEWS',
     title:
       'Zoom’s earliest investors are betting millions on a better Zoom for schools',
@@ -31,6 +33,7 @@ export const smallNews = [
   },
   {
     img: MeetWithCat,
+    alt: 'meet-with-cat',
     label: 'NEWS',
     title:
       'Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms',

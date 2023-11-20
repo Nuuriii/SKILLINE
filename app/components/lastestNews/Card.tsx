@@ -11,7 +11,11 @@ interface CardProps {
 export default function Card({ img, label, title, desc, btnText }: CardProps) {
   return (
     <div className='mt-[2rem]'>
-      <Image className='h-auto w-[100%] rounded-[1rem]' src={img} alt='' />
+      <Image
+        className='h-auto w-[100%] rounded-[1rem]'
+        src={img}
+        alt='meeting'
+      />
       <p className='my-[1rem] h-[2rem] w-[6rem] rounded-[2rem] flex justify-center items-center bg-[#F4C467] text-[#252641]'>
         {label}
       </p>
