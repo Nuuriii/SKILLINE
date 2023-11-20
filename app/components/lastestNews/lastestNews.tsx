@@ -18,7 +18,7 @@ export default function LastestNews() {
               See the developments that have occurred to Skillines in the world
             </p>
           </div>
-          <div>
+          <div className='flex flex-col'>
             <div>
               {bigNews.map((item, index) => (
                 <Card
