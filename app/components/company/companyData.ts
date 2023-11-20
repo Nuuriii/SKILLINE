@@ -1,50 +1,38 @@
-import GrayGoogle from '@/assets/company/googleGray.png';
-import ColoredGoogle from '@/assets/company/googleColored.png';
-import GrayNetflix from '@/assets/company/netflixGray.png';
-import ColoredNetflix from '@/assets/company/netflixColored.png';
-import GrayAmazon from '@/assets/company/amazonGray.png';
-import GrayAirBnb from '@/assets/company/airBnbGray.png';
-import ColoredAirBnb from '@/assets/company/airBnbColored.png';
-import ColoredAmazon from '@/assets/company/amazonColored.png';
-import GrayFacebook from '@/assets/company/facebookGray.png';
-import ColoredFacebook from '@/assets/company/facebookColored.png';
-import GrayGrab from '@/assets/company/grabGray.png';
-import ColoredGrab from '@/assets/company/grabColored.png';
+import Google from '@/assets/company/google.png';
+import Netflix from '@/assets/company/netflix.png';
+import AirBnb from '@/assets//company/airbnb.png';
+import Amazon from '@/assets/company/amazon.png';
+import Facebook from '@/assets/company/facebook.png';
+import Grab from '@/assets/company/grab.png';
 
 export const CompanyIcon = [
   {
-    regular: GrayGoogle,
-    hover: ColoredGoogle,
+    regular: Google,
     altRegular: 'gray-google',
     altHover: 'colored-google',
   },
   {
-    regular: GrayNetflix,
-    hover: ColoredNetflix,
+    regular: Netflix,
     altRegular: 'gray-netflix',
     altHover: 'colored-netflix',
   },
   {
-    regular: GrayAirBnb,
-    hover: ColoredAirBnb,
+    regular: AirBnb,
     altRegular: 'gray-airbnb',
     altHover: 'colored-airbnb',
   },
   {
-    regular: GrayAmazon,
-    hover: ColoredAmazon,
+    regular: Amazon,
     altRegular: 'gray-amazon',
     altHover: 'colored-amazon',
   },
   {
-    regular: GrayFacebook,
-    hover: ColoredFacebook,
+    regular: Facebook,
     altRegular: 'gray-facebook',
     altHover: 'colored-facebook',
   },
   {
-    regular: GrayGrab,
-    hover: ColoredGrab,
+    regular: Grab,
     altRegular: 'gray-grab',
     altHover: 'colored-grab',
   },
