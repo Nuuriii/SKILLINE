@@ -40,7 +40,7 @@ export default function Testimonial() {
                 <Image
                   className='h-[1.2rem] w-auto right-0 '
                   src={ArrowRight}
-                  alt=''
+                  alt='arrow-right'
                 />
                 {/* 
                  
@@ -52,7 +52,7 @@ export default function Testimonial() {
             <Image
               className='absolute top-[-7rem] z-[-1] lg:static h-[10rem] lg:h-[23rem] xl:h-[28rem] w-auto rounded-[0.5rem]'
               src={SmileGirl}
-              alt=''
+              alt='smile-girl'
             />
             <div className='min-[500px]:w-[20rem] xl:w-[28rem] lg:absolute top-[18rem] right-[3rem] bg-[#FFFFFF] shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-[1.2rem] px-[1rem] xl:px-[1.5rem] xl:border-l-[8px] border-solid border-[#F67766] rounded-[1rem]'>
               <div className='xl:pl-[1rem]  border-l-[1px] border-solid border-[#BDBDD1]'>
@@ -66,7 +66,7 @@ export default function Testimonial() {
                   <Image
                     className='h-auto w-[5rem] xl:w-[6rem]'
                     src={StarGroup}
-                    alt=''
+                    alt='star-icon'
                   />
                   <p className='mt-[0.3rem] xl:mt-[0.5rem] text-[0.7rem] xl:text-[0.8rem] text-[#80819A] font-[600]'>
                     12 reviews at Yelp

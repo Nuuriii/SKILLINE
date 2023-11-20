@@ -31,4 +31,13 @@ describe('test text & img alt', () => {
     expect(userTestimonial).toBeInTheDocument();
     expect(testimonialInfo).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Testimonial />);
+    const arrowIcon = screen.getByAltText('arrow-right');
+    const smileGirl = screen.getByAltText('smile-girl');
+    const starIcon = screen.getByAltText('star-icon');
+
+    expect(arrowIcon).toBeVisible();
+    expect(smileGirl).toBeVisible();
+  });
 });
