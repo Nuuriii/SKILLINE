@@ -8,7 +8,7 @@ export default function Testimonial() {
   return (
     <Padding>
       <div
-        className='mt-[6rem] mb-[6rem] flex justify-center'
+        className='mt-[6rem] xl:mt-[8rem] mb-[6rem] flex justify-center'
         style={{ fontFamily: 'nunito, sans-serif' }}
       >
         <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%]'>
