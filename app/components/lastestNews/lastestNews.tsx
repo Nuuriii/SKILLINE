@@ -6,8 +6,8 @@ import { bigNews, smallNews } from './newsData';
 export default function LastestNews() {
   return (
     <Padding>
-      <div>
-        <div>
+      <div className='flex justify-center'>
+        <div className='min-[500px]:w-[30rem]'>
           <div
             className='flex flex-col items-center'
             style={{ fontFamily: 'nunito, sans-serif' }}
