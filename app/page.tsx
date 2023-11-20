@@ -13,6 +13,7 @@ import Discussion from './components/discussion/discussion';
 import Integrations from './components/integrations/integrations';
 import Testimonial from './components/testimonial/testimonial';
 import LastestNews from './components/lastestNews/lastestNews';
+import Footer from './components/footer/footer';
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <Testimonial />
         <LastestNews />
       </main>
+      <Footer />
     </>
   );
 }
