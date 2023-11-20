@@ -32,9 +32,9 @@ export default function Footer() {
               >
                 Subscribe to get our Newsletter
               </label>
-              <div className='flex flex-col lg:flex-row lg:justify-between'>
+              <div className='flex flex-col items-center lg:flex-row lg:justify-between'>
                 <input
-                  className='px-[0.5rem] py-[0.5rem] rounded-[2rem] placeholder:text-[#83839A] border-[1px] border-solid text-center lg:text-left lg:w-[66%] lg:px-[0.8rem] border-[#83839A] bg-transparent focus:bg-white'
+                  className='px-[0.5rem] py-[0.5rem] w-[90%] rounded-[2rem] placeholder:text-[#83839A] border-[1px] border-solid text-center lg:text-left lg:w-[66%] lg:px-[0.8rem] border-[#83839A] bg-transparent focus:bg-white'
                   type='email'
                   id='email'
                   placeholder='Your Email'
@@ -42,7 +42,7 @@ export default function Footer() {
                 />
                 <button
                   type='submit'
-                  className='lg:w-[30%] mt-[1rem] lg:mt-0 py-[0.5rem] rounded-[2rem] text-[#FFFFFF] bg-gradient-to-r from-blue-500 to-indigo-800 hover:scale-[1.02] active:scale-[0.99] duration-[0.3s] hover:bg-gradient-to-l hover:from-blue-500 hover:to-indigo-800'
+                  className='w-[90%] lg:w-[30%] mt-[1rem] lg:mt-0 py-[0.5rem] rounded-[2rem] text-[#FFFFFF] bg-gradient-to-r from-blue-500 to-indigo-800 hover:scale-[1.02] active:scale-[0.99] duration-[0.3s] hover:bg-gradient-to-l hover:from-blue-500 hover:to-indigo-800'
                 >
                   Subscribe
                 </button>
