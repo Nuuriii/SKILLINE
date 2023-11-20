@@ -19,8 +19,8 @@ export default function LastestNews() {
               See the developments that have occurred to Skillines in the world
             </p>
           </div>
-          <div className='lg:mt-[3rem] flex flex-col lg:flex-row'>
-            <div className='lg:mr-[4rem]'>
+          <div className='lg:mt-[3rem] flex flex-col lg:flex-row lg:justify-between'>
+            <div className='lg:mr-[4rem] xl:w-[43%]'>
               {bigNews.map((item, index) => (
                 <Card
                   key={index}
@@ -32,7 +32,7 @@ export default function LastestNews() {
                 />
               ))}
             </div>
-            <div className='mt-[3rem]'>
+            <div className='mt-[3rem] xl:w-[50%]'>
               {smallNews.map((item, index) => (
                 <div key={index} className='flex mb-[1.5rem]'>
                   <div className='w-[40%] mr-[1rem] relative'>
@@ -46,10 +46,10 @@ export default function LastestNews() {
                       {item.label}
                     </p>
 
-                    <h2 className='mb-[0.5rem] text-[0.8rem] font-[600]'>
+                    <h2 className='mb-[0.5rem] text-[0.8rem] xl:text-[1.1rem] font-[600]'>
                       {item.title}
                     </h2>
-                    <p className='text-[0.7rem]'>{item.desc}</p>
+                    <p className='text-[0.7rem] xl:text-[1rem]'>{item.desc}</p>
                   </div>
                 </div>
               ))}
