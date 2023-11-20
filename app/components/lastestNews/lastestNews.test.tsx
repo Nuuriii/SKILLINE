@@ -51,4 +51,16 @@ describe('test text & test img alt', () => {
     expect(secondDesc).toBeInTheDocument();
     expect(thirdDesc).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<LastestNews />);
+    const meeting = screen.getByAltText('meeting');
+    const kidLearning = screen.getByAltText('kid-learning');
+    const meetWithTeams = screen.getByAltText('meet-with-teams');
+    const meetWithCat = screen.getByAltText('meet-with-cat');
+
+    expect(meeting).toBeVisible();
+    expect(kidLearning).toBeVisible();
+    expect(meetWithTeams).toBeVisible();
+    expect(meetWithCat).toBeVisible();
+  });
 });
