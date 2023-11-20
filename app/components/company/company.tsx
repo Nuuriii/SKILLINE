@@ -22,7 +22,7 @@ export default function Company() {
                   className='slide mx-[3rem] flex w-[125px] items-center justify-center'
                   key={index}
                 >
-                  <Image src={item.regular} alt={item.altRegular} />
+                  <Image src={item.icon} alt={item.alt} />
                 </div>
               ))}
               {CompanyIcon.map((item, index) => (
@@ -30,27 +30,11 @@ export default function Company() {
                   className='slide mx-[3rem] flex w-[125px] items-center justify-center'
                   key={index}
                 >
-                  <Image src={item.regular} alt={item.altRegular} />
+                  <Image src={item.icon} alt={item.alt} />
                 </div>
               ))}
             </div>
           </div>
-          {/* <div className='mt-[2rem] flex items-center flex-wrap justify-center'>
-          {CompanyIcon.map((item, index) => (
-            <div className={styles.imgContainer} key={index}>
-              <Image
-                className={styles.imgRegular}
-                src={item.regular}
-                alt={item.altRegular}
-              />
-              <Image
-                className={styles.imgHover}
-                src={item.hover}
-                alt={item.altHover}
-              />
-            </div>
-          ))}
-        </div> */}
         </div>
       </div>
     </Padding>

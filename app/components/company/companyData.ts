@@ -7,33 +7,27 @@ import Grab from '@/assets/company/grab.png';
 
 export const CompanyIcon = [
   {
-    regular: Google,
-    altRegular: 'gray-google',
-    altHover: 'colored-google',
+    icon: Google,
+    alt: 'google-icon',
   },
   {
-    regular: Netflix,
-    altRegular: 'gray-netflix',
-    altHover: 'colored-netflix',
+    icon: Netflix,
+    alt: 'netflix-icon',
   },
   {
-    regular: AirBnb,
-    altRegular: 'gray-airbnb',
-    altHover: 'colored-airbnb',
+    icon: AirBnb,
+    alt: 'airbnb-icon',
   },
   {
-    regular: Amazon,
-    altRegular: 'gray-amazon',
-    altHover: 'colored-amazon',
+    icon: Amazon,
+    alt: 'amazon-icon',
   },
   {
-    regular: Facebook,
-    altRegular: 'gray-facebook',
-    altHover: 'colored-facebook',
+    icon: Facebook,
+    alt: 'facebook-icon',
   },
   {
-    regular: Grab,
-    altRegular: 'gray-grab',
-    altHover: 'colored-grab',
+    icon: Grab,
+    alt: 'grab-icon',
   },
 ];
