@@ -6,25 +6,28 @@ export default function Footer() {
   return (
     <footer
       style={{ fontFamily: 'poppins, sans-serif' }}
-      className='mt-[5rem] bg-[#252641] pt-[3rem] flex justify-center pb-[1.5rem]'
+      className='mt-[5rem] bg-[#252641] pt-[3rem] lg:pt-[4rem] flex justify-center pb-[1.5rem]'
     >
       <div className='min-[500px]:w-[30rem] lg:w-[100%]'>
         <Padding>
           <div className='flex flex-col items-center'>
             <div className='flex items-center'>
               <Image
-                className='h-[3rem] w-auto pr-[2rem] border-r-[1px] border-solid border-[#626381]'
+                className='h-[3rem] lg:h-[4rem] w-auto pr-[2rem] border-r-[1px] border-solid border-[#626381]'
                 src={Icon}
                 alt=''
               />
-              <h1 className='pl-[2rem] text-[#FFFFFF] font-[600] w-[9rem]'>
+              <h1 className='pl-[2rem] lg:text-[1.2rem] text-[#FFFFFF] font-[600] w-[9rem] lg:w-[11rem]'>
                 Virtual Class for Zoom
               </h1>
             </div>
-            <form className='mt-[4rem] flex flex-col items-center' action=''>
+            <form
+              className='my-[4rem] lg:my-[5rem] flex flex-col items-center'
+              action=''
+            >
               <label
                 style={{ fontFamily: 'poppins, sans-serif' }}
-                className='mb-[1rem] text-[#B2B3CF] text-center'
+                className='mb-[1rem] text-[#B2B3CF] text-center lg:text-[1.2rem]'
                 htmlFor=''
               >
                 Subscribe to get our Newsletter
@@ -44,20 +47,17 @@ export default function Footer() {
                 </button>
               </div>
             </form>
-            <div
-              className='mt-[4rem]'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
-              <div className='flex items-center text-[0.8rem] text-[#B2B3CF]'>
-                <span className='pr-[0.6rem] border-r-[1px] border-solid border-[#626381]'>
+            <div className='' style={{ fontFamily: 'poppins, sans-serif' }}>
+              <div className='flex items-center text-[0.8rem] lg:text-[1rem] text-[#B2B3CF]'>
+                <span className='pr-[0.9rem] border-r-[1px] border-solid border-[#626381]'>
                   Careers
                 </span>
-                <span className='px-[0.6rem] border-r-[1px] border-solid border-[#626381]'>
+                <span className='px-[0.9rem] border-r-[1px] border-solid border-[#626381]'>
                   Privacy Policy
                 </span>
-                <span className='pl-[0.6rem]'>Terms & Conditions</span>
+                <span className='pl-[0.9rem]'>Terms & Conditions</span>
               </div>
-              <p className='mt-[1rem] text-[0.9rem] text-[#B2B3CF] text-center'>
+              <p className='mt-[1rem] text-[0.9rem] lg:text-[1.1rem] text-[#B2B3CF] text-center'>
                 © 2021 Class Technologies Inc.{' '}
               </p>
             </div>
