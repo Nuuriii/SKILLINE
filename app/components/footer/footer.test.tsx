@@ -22,4 +22,10 @@ describe('test text & test img alt', () => {
     expect(terms).toBeInTheDocument();
     expect(copyright).toBeInTheDocument();
   });
+  test('test img alt', () => {
+    render(<Footer />);
+    const icon = screen.getByAltText('icon');
+
+    expect(icon).toBeVisible();
+  });
 });
