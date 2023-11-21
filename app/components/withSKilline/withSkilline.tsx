@@ -10,8 +10,8 @@ import BigOrange from '@/assets/withSkilline/bigOrange.svg';
 export default function WithSkilline() {
   return (
     <Padding>
-      <div className='mt-[4rem] md:mt-[7rem] xl:mt-[9rem] mb-[2rem] flex min-[1488px]:justify-center'>
-        <div className='w-full min-[1488px]:w-[70rem] flex items-center justify-center'>
+      <div className='mt-[4rem] md:mt-[7rem] xl:mt-[9rem] mb-[2rem] flex justify-center'>
+        <div className='w-full min-[500px]:w-[30rem] min-[1488px]:w-[70rem] flex items-center justify-center'>
           <div className='flex xl:mr-[3rem] relative flex-col xl:w-[50%] items-center xl:items-start'>
             <Image
               className='hidden xl:flex absolute z-[-1] h-[4rem] top-[-0.7rem] left-[-1rem] w-auto'
