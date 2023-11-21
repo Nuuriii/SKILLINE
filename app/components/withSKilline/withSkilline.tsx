@@ -11,22 +11,22 @@ export default function WithSkilline() {
   return (
     <Padding>
       <div className='mt-[4rem] md:mt-[7rem] xl:mt-[9rem] mb-[2rem] flex justify-center'>
-        <div className='w-full min-[500px]:w-[30rem] min-[1488px]:w-[70rem] flex items-center justify-center'>
-          <div className='flex xl:mr-[3rem] relative flex-col xl:w-[50%] items-center xl:items-start'>
+        <div className='w-full min-[500px]:w-[30rem] lg:w-full min-[1488px]:w-[70rem] flex items-center justify-center'>
+          <div className='flex lg:mr-[3rem] relative flex-col xl:w-[50%] items-center lg:items-start lg:w-[50%]'>
             <Image
               className='hidden xl:flex absolute z-[-1] h-[4rem] top-[-0.7rem] left-[-1rem] w-auto'
               src={BigOrange}
               alt='big-orange-icon'
             />
             <h1
-              className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left lg:text-[2rem] md:w-[38rem]'
+              className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left lg:text-[2rem]'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Everything you can do in a physical classroom,{'  '}
               <span className='text-[#F48C06]'>you can do with Skilline</span>
             </h1>
             <p
-              className='text-[#696984] text-center xl:text-left'
+              className='text-[#696984] text-center lg:text-left'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Skilline’s school management software helps traditional and online
@@ -34,7 +34,7 @@ export default function WithSkilline() {
               classrooms all in one secure cloud-based system.
             </p>
             <button
-              className='mt-[1rem] text-[#696984] underline'
+              className='mt-[1rem] text-[#696984] underline hover:text-sky-600'
               style={{ fontFamily: 'poppins, sans-serif' }}
             >
               Learn more
@@ -45,7 +45,7 @@ export default function WithSkilline() {
               alt='small-orange-icon'
             />
           </div>
-          <div className='hidden xl:flex rounded-[1rem] h-[20rem] xl:bg-[#171B4180] w-[auto] relative'>
+          <div className='hidden lg:flex lg:w-[50%] rounded-[1rem] h-[20rem] xl:bg-[#171B4180] w-[auto] relative'>
             <Image
               className='absolute top-[-1rem] left-[-1rem] z-[-2]'
               src={Blue}
