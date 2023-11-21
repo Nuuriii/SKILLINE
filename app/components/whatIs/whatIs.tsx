@@ -5,8 +5,8 @@ import Card from './card';
 export default function WhatIs() {
   return (
     <Padding>
-      <div className='mt-[2rem]'>
-        <div>
+      <div className='mt-[2rem] flex justify-center'>
+        <div className='min-[500px]:w-[30rem]'>
           <div className='mb-[2rem] flex flex-col items-center'>
             <h1
               className='text-center text-[#2F327D] font-[600] text-[1.5rem] lg:text-[2rem]'
