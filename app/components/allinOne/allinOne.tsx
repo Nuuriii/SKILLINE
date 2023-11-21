@@ -6,7 +6,7 @@ export default function AllinOne() {
   return (
     <Padding>
       <div className='mt-[4rem] xl:mt-[6rem] flex justify-center'>
-        <div className='min-[500px]:w-[30rem] min-[1488px]:w-[70rem]'>
+        <div className='min-[500px]:w-[30rem] lg:w-full min-[1488px]:w-[70rem]'>
           <div className='flex flex-col items-center'>
             <h1
               className='mb-[1rem] text-[1.5rem] xl:text-[2rem] text-[#2F327D] text-center font-[700]'
@@ -23,7 +23,7 @@ export default function AllinOne() {
               the tools needed to run a successful school or office.
             </p>
           </div>
-          <div className='mt-[3rem] xl:mt-[6rem] grid grid-cols-1 xl:grid-cols-3 justify-end'>
+          <div className='mt-[3rem] xl:mt-[6rem] grid grid-cols-1 lg:grid-cols-3 justify-end'>
             {cardData.map((item, index) => (
               <Card
                 key={index}
