@@ -119,3 +119,7 @@
 .desktop-list {
   @apply mr-[2rem];
 }
+
+.about-list-item {
+  @apply mr-[3rem];
+}

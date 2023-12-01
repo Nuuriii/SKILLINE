@@ -70,7 +70,7 @@ export default function Navbar() {
                   Blog
                 </Link>
               </li>
-              <li className='mr-[3rem]'>
+              <li className='about-list-item'>
                 <Link className='link-text' href={'/'}>
                   About Us
                 </Link>
