@@ -49,12 +49,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <button className='mr-[1rem] py-[0.5rem] px-[1.2rem] rounded-[2rem] border-none outline outline-1 outline-[#F48C06] text-[#252641] bg-[#fff]'>
-                  Login
-                </button>
-                <button className='bg-[#F48C06] py-[0.5rem] px-[1rem] rounded-[2rem] text-[#FFFFFF]'>
-                  Sign Up
-                </button>
+                <button className='mobile-login'>Login</button>
+                <button className='mobile-signup'>Sign Up</button>
               </li>
             </ul>
             {/* ul for desktop view */}

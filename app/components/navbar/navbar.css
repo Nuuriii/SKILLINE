@@ -65,3 +65,24 @@
 .link-text {
   @apply text-[#252641];
 }
+
+.mobile-login {
+  @apply mr-[1rem] 
+         py-[0.5rem] 
+         px-[1.2rem] 
+         rounded-[2rem] 
+         border-none 
+         outline 
+         outline-1 
+         outline-[#F48C06] 
+         text-[#252641] 
+         bg-[#fff];
+}
+
+.mobile-signup {
+  @apply bg-[#F48C06] 
+         py-[0.5rem] 
+         px-[1rem] 
+         rounded-[2rem] 
+         text-[#FFFFFF];
+}
