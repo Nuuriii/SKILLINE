@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav className='nav-container'>
-      <div className='w-full min-[1488px]:w-[70rem]'>
+      <div className='child-container'>
         <Padding>
           <div className='w-full relative flex items-center justify-between py-[0.5rem] lg:py-[1.5rem]'>
             <div className='relative ml-[0.8rem] md:ml-[0]'>

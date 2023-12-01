@@ -8,6 +8,11 @@
          min-[1488px]:justify-center;
 }
 
+.child-container {
+  @apply w-full 
+         min-[1488px]:w-[70rem];
+}
+
 .mobile-ul {
   @apply flex 
          flex-col 
