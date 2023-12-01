@@ -1,3 +1,13 @@
+.nav-container {
+  @apply w-full 
+         fixed 
+         top-0 
+         z-20 
+         backdrop-blur-md 
+         min-[1488px]:flex 
+         min-[1488px]:justify-center;
+}
+
 .mobile-ul {
   @apply flex 
          flex-col 
@@ -10,6 +20,7 @@
          px-[1rem] 
          absolute
          right-0 
+         font-[poppins]
          top-[6rem] 
        bg-[#FFFFFFCC] 
          backdrop-blur-[9px];

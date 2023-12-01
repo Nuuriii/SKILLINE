@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='w-full fixed top-0 z-20 backdrop-blur-md min-[1488px]:flex min-[1488px]:justify-center'>
+    <nav className='nav-container'>
       <div className='w-full min-[1488px]:w-[70rem]'>
         <Padding>
           <div className='w-full relative flex items-center justify-between py-[0.5rem] lg:py-[1.5rem]'>
@@ -38,52 +38,30 @@ export default function Navbar() {
             {/* ul for mobile */}
             <ul className={`mobile-ul ${show ? 'true-right' : 'false-right'}`}>
               <li>
-                <Link
-                  className='link-text'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                  href={'/'}
-                >
+                <Link className='link-text' href={'/'}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  className='link-text'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                  href={'/'}
-                >
+                <Link className='link-text' href={'/'}>
                   Careers
                 </Link>
               </li>
               <li>
-                <Link
-                  className='link-text'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                  href={'/'}
-                >
+                <Link className='link-text' href={'/'}>
                   Blog
                 </Link>
               </li>
               <li className='mb-[1rem]'>
-                <Link
-                  className='link-text'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                  href={'/'}
-                >
+                <Link className='link-text' href={'/'}>
                   About Us
                 </Link>
               </li>
               <li>
-                <button
-                  className='mr-[1rem] py-[0.5rem] px-[1.2rem] rounded-[2rem] border-none outline outline-1 outline-[#F48C06] text-[#252641] bg-[#fff]'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                >
+                <button className='mr-[1rem] py-[0.5rem] px-[1.2rem] rounded-[2rem] border-none outline outline-1 outline-[#F48C06] text-[#252641] bg-[#fff]'>
                   Login
                 </button>
-                <button
-                  className='bg-[#F48C06] py-[0.5rem] px-[1rem] rounded-[2rem] text-[#FFFFFF]'
-                  style={{ fontFamily: 'poppins, sans-serif' }}
-                >
+                <button className='bg-[#F48C06] py-[0.5rem] px-[1rem] rounded-[2rem] text-[#FFFFFF]'>
                   Sign Up
                 </button>
               </li>
