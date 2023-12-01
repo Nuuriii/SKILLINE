@@ -13,6 +13,16 @@
          min-[1488px]:w-[70rem];
 }
 
+.view-container {
+  @apply w-full 
+         relative 
+         flex 
+         items-center 
+         justify-between 
+         py-[0.5rem] 
+         lg:py-[1.5rem];
+}
+
 .mobile-ul {
   @apply flex 
          flex-col 

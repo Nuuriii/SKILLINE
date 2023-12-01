@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className='nav-container'>
       <div className='child-container'>
         <Padding>
-          <div className='w-full relative flex items-center justify-between py-[0.5rem] lg:py-[1.5rem]'>
+          <div className='view-container'>
             <div className='relative ml-[0.8rem] md:ml-[0]'>
               <Image
                 className='h-[2.9rem] top-[-0.4rem] left-[-1.7rem] absolute z-[-1]'
