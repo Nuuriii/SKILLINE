@@ -79,9 +79,7 @@ export default function Navbar() {
                 <button className='dekstop-login'>Login</button>
               </li>
               <li className='mr-[1rem]'>
-                <button className='text-[#FFFFFF] h-[2.1rem] rounded-[2rem] w-[6rem] flex justify-center items-center bg-[#F48C06]'>
-                  Sign Up
-                </button>
+                <button className=''>Sign Up</button>
               </li>
             </ul>
           </div>
