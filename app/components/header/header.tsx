@@ -9,15 +9,12 @@ import Mail from '@/assets/header/email.svg';
 import Statistic from '@/assets/header/statistic.png';
 import GreenBullet from '@/assets/header/greenbullet.svg';
 import CheckIcon from '@/assets/header/checklist.svg';
+import './header.css';
 
 export default function Header() {
   return (
-    <div className='relative flex justify-center'>
-      <Image
-        className='h-[95vh] hidden lg:flex min-[1488px]:h-[40rem] min-[1488px]:w-[100%] absolute z-[-2]'
-        src={Bg}
-        alt='orangeBg'
-      />
+    <div className='main-container'>
+      <Image className='orange-bg' src={Bg} alt='orangeBg' />
       <div className='w-full bg-[#FFF2E1] lg:bg-transparent min-[1488px]:w-[70rem]'>
         <Padding>
           <div className='flex justify-center'>

@@ -1,0 +1,14 @@
+.main-container {
+  @apply relative 
+         flex 
+         justify-center;
+}
+
+.orange-bg {
+  @apply h-[95vh] 
+         hidden 
+         lg:flex 
+         min-[1488px]:h-[40rem] 
+         min-[1488px]:w-[100%] 
+         absolute z-[-2];
+}
