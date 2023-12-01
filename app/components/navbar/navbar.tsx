@@ -79,7 +79,7 @@ export default function Navbar() {
                 <button className='dekstop-login'>Login</button>
               </li>
               <li className='mr-[1rem]'>
-                <button className=''>Sign Up</button>
+                <button className='dekstop-signup'>Sign Up</button>
               </li>
             </ul>
           </div>
