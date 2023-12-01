@@ -1,11 +1,11 @@
 'use client';
-
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Polygon from '@/assets/navbar/Polygon.svg';
 import Padding from '../padding/padding';
 import Hamburger from '@/assets/navbar/hamburger.svg';
+import './navbar.css';
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -36,26 +36,10 @@ export default function Navbar() {
               <Image className='h-[3.4rem]' src={Hamburger} alt='hamburger' />
             </button>
             {/* ul for mobile */}
-            <ul
-              className={` flex 
-            flex-col 
-            lg:hidden 
-            h-auto 
-            w-auto 
-            ${show ? 'right-0' : 'right-[-200%]'}
-            rounded-[1rem] 
-            duration-[0.3s]
-            py-[0.5rem] 
-            px-[1rem] 
-            absolute
-            right-0 
-            top-[6rem] 
-            bg-[#FFFFFFCC] 
-            backdrop-blur-[9px]`}
-            >
+            <ul className={`mobile-ul ${show ? 'true-right' : 'false-right'}`}>
               <li>
                 <Link
-                  className='text-[#252641] lg:hidden'
+                  className='link-text'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -64,7 +48,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  className='text-[#252641] font-[poppins]'
+                  className='link-text'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -73,7 +57,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  className='text-[#252641]'
+                  className='link-text'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -82,7 +66,7 @@ export default function Navbar() {
               </li>
               <li className='mb-[1rem]'>
                 <Link
-                  className='text-[#252641]'
+                  className='link-text'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -107,22 +91,22 @@ export default function Navbar() {
             {/* ul for desktop view */}
             <ul className='items-center hidden lg:flex font-[poppins]'>
               <li className='mr-[2rem]'>
-                <Link className='text-[#252641]' href={'/'}>
+                <Link className='link-text' href={'/'}>
                   Home
                 </Link>
               </li>
               <li className='mr-[2rem]'>
-                <Link className='text-[#252641]' href={'/'}>
+                <Link className='link-text' href={'/'}>
                   Careers
                 </Link>
               </li>
               <li className='mr-[2rem]'>
-                <Link className='text-[#252641]' href={'/'}>
+                <Link className='link-text' href={'/'}>
                   Blog
                 </Link>
               </li>
               <li className='mr-[3rem]'>
-                <Link className='text-[#252641]' href={'/'}>
+                <Link className='link-text' href={'/'}>
                   About Us
                 </Link>
               </li>

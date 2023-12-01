@@ -1,0 +1,28 @@
+.mobile-ul {
+  @apply flex 
+         flex-col 
+         lg:hidden 
+         h-auto 
+         w-auto
+         rounded-[1rem] 
+         duration-[0.3s]
+         py-[0.5rem] 
+         px-[1rem] 
+         absolute
+         right-0 
+         top-[6rem] 
+       bg-[#FFFFFFCC] 
+         backdrop-blur-[9px];
+}
+
+.false-right {
+  @apply right-[-200%];
+}
+
+.true-right {
+  @apply right-0;
+}
+
+.link-text {
+  @apply text-[#252641];
+}
