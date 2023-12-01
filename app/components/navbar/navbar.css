@@ -23,6 +23,12 @@
          lg:py-[1.5rem];
 }
 
+.title-container {
+  @apply relative 
+         ml-[0.8rem] 
+         md:ml-[0];
+}
+
 .polygon-img {
   @apply h-[2.9rem] 
          top-[-0.4rem] 
@@ -34,6 +40,10 @@
   @apply font-[700]  
        text-[#113C49] 
          text-[1.5rem];
+}
+
+.hamburger {
+  @apply h-[3.4rem];
 }
 
 .mobile-ul {
@@ -64,6 +74,10 @@
 
 .link-text {
   @apply text-[#252641];
+}
+
+.mobile-about-listItem {
+  @apply mb-[1rem];
 }
 
 .mobile-login {

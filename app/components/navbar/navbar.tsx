@@ -19,12 +19,12 @@ export default function Navbar() {
       <div className='child-container'>
         <Padding>
           <div className='view-container'>
-            <div className='relative ml-[0.8rem] md:ml-[0]'>
+            <div className='title-container'>
               <Image className='polygon-img' src={Polygon} alt='icon' />
               <h1 className='skilline-title'>Skilline</h1>
             </div>
             <button onClick={handleShow} className='lg:hidden'>
-              <Image className='h-[3.4rem]' src={Hamburger} alt='hamburger' />
+              <Image className='hamburger' src={Hamburger} alt='hamburger' />
             </button>
             {/* ul for mobile */}
             <ul className={`mobile-ul ${show ? 'true-right' : 'false-right'}`}>
@@ -43,7 +43,7 @@ export default function Navbar() {
                   Blog
                 </Link>
               </li>
-              <li className='mb-[1rem]'>
+              <li className='mobile-about-listItem'>
                 <Link className='link-text' href={'/'}>
                   About Us
                 </Link>
