@@ -86,3 +86,21 @@
          rounded-[2rem] 
          text-[#FFFFFF];
 }
+
+.desktop-ul {
+  @apply items-center 
+         hidden 
+         lg:flex 
+         font-[poppins];
+}
+
+.dekstop-login {
+  @apply text-[#6C6C6C] 
+         h-[2.1rem] 
+         rounded-[2rem] 
+         w-[6rem] 
+         flex 
+         justify-center 
+         items-center 
+         bg-white;
+}

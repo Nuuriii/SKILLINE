@@ -54,7 +54,7 @@ export default function Navbar() {
               </li>
             </ul>
             {/* ul for desktop view */}
-            <ul className='items-center hidden lg:flex font-[poppins]'>
+            <ul className='desktop-ul'>
               <li className='mr-[2rem]'>
                 <Link className='link-text' href={'/'}>
                   Home
@@ -76,9 +76,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className='mr-[1rem]'>
-                <button className='text-[#6C6C6C] h-[2.1rem] rounded-[2rem] w-[6rem] flex justify-center items-center  bg-white '>
-                  Login
-                </button>
+                <button className='dekstop-login'>Login</button>
               </li>
               <li className='mr-[1rem]'>
                 <button className='text-[#FFFFFF] h-[2.1rem] rounded-[2rem] w-[6rem] flex justify-center items-center bg-[#F48C06]'>
