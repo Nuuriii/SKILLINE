@@ -64,7 +64,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  className='text-[#252641]'
+                  className='text-[#252641] font-[poppins]'
                   style={{ fontFamily: 'poppins, sans-serif' }}
                   href={'/'}
                 >
@@ -105,12 +105,9 @@ export default function Navbar() {
               </li>
             </ul>
             {/* ul for desktop view */}
-            <ul
-              className='items-center hidden lg:flex'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+            <ul className='items-center hidden lg:flex font-[poppins]'>
               <li className='mr-[2rem]'>
-                <Link className='text-[#252641] hidden lg:flex' href={'/'}>
+                <Link className='text-[#252641]' href={'/'}>
                   Home
                 </Link>
               </li>
