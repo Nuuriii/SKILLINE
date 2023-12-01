@@ -115,3 +115,7 @@
          items-center 
          bg-[#F48C06];
 }
+
+.desktop-list {
+  @apply mr-[2rem];
+}

@@ -55,17 +55,17 @@ export default function Navbar() {
             </ul>
             {/* ul for desktop view */}
             <ul className='desktop-ul'>
-              <li className='mr-[2rem]'>
+              <li className='desktop-list'>
                 <Link className='link-text' href={'/'}>
                   Home
                 </Link>
               </li>
-              <li className='mr-[2rem]'>
+              <li className='desktop-list'>
                 <Link className='link-text' href={'/'}>
                   Careers
                 </Link>
               </li>
-              <li className='mr-[2rem]'>
+              <li className='desktop-list'>
                 <Link className='link-text' href={'/'}>
                   Blog
                 </Link>
