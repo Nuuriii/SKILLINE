@@ -23,6 +23,13 @@
          lg:py-[1.5rem];
 }
 
+.polygon-img {
+  @apply h-[2.9rem] 
+         top-[-0.4rem] 
+         left-[-1.7rem] 
+         absolute z-[-1];
+}
+
 .mobile-ul {
   @apply flex 
          flex-col 

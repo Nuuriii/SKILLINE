@@ -20,11 +20,7 @@ export default function Navbar() {
         <Padding>
           <div className='view-container'>
             <div className='relative ml-[0.8rem] md:ml-[0]'>
-              <Image
-                className='h-[2.9rem] top-[-0.4rem] left-[-1.7rem] absolute z-[-1]'
-                src={Polygon}
-                alt='icon'
-              />
+              <Image className='polygon-img' src={Polygon} alt='icon' />
               <h1
                 className='font-[700]  text-[#113C49] text-[1.5rem]'
                 style={{ fontFamily: 'poppins, sans-serif' }}
