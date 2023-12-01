@@ -75,10 +75,10 @@ export default function Navbar() {
                   About Us
                 </Link>
               </li>
-              <li className='mr-[1rem]'>
+              <li className='btn-list-item'>
                 <button className='dekstop-login'>Login</button>
               </li>
-              <li className='mr-[1rem]'>
+              <li className='btn-list-item'>
                 <button className='dekstop-signup'>Sign Up</button>
               </li>
             </ul>

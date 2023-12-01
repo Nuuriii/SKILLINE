@@ -123,3 +123,7 @@
 .about-list-item {
   @apply mr-[3rem];
 }
+
+.btn-list-item {
+  @apply mr-[1rem];
+}
