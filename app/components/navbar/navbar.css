@@ -30,6 +30,12 @@
          absolute z-[-1];
 }
 
+.skilline-title {
+  @apply font-[700]  
+       text-[#113C49] 
+         text-[1.5rem];
+}
+
 .mobile-ul {
   @apply flex 
          flex-col 

@@ -21,12 +21,7 @@ export default function Navbar() {
           <div className='view-container'>
             <div className='relative ml-[0.8rem] md:ml-[0]'>
               <Image className='polygon-img' src={Polygon} alt='icon' />
-              <h1
-                className='font-[700]  text-[#113C49] text-[1.5rem]'
-                style={{ fontFamily: 'poppins, sans-serif' }}
-              >
-                Skilline
-              </h1>
+              <h1 className='skilline-title'>Skilline</h1>
             </div>
             <button onClick={handleShow} className='lg:hidden'>
               <Image className='h-[3.4rem]' src={Hamburger} alt='hamburger' />
