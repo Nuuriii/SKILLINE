@@ -1,11 +1,10 @@
-'use client';
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Polygon from '@/assets/navbar/Polygon.svg';
 import Padding from '../padding/padding';
 import Hamburger from '@/assets/navbar/hamburger.svg';
-import './navbar.css';
+import styles from './navbar.module.css';
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -15,71 +14,79 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='nav-container'>
-      <div className='child-container'>
+    <nav className={styles.navContainer}>
+      <div className={styles.childContainer}>
         <Padding>
-          <div className='view-container'>
-            <div className='title-container'>
-              <Image className='polygon-img' src={Polygon} alt='icon' />
-              <h1 className='skilline-title'>Skilline</h1>
+          <div className={styles.viewContainer}>
+            <div className={styles.titleContainer}>
+              <Image className={styles.polygonImg} src={Polygon} alt='icon' />
+              <h1 className={styles.skillineTitle}>Skilline</h1>
             </div>
-            <button onClick={handleShow} className='lg:hidden'>
-              <Image className='hamburger' src={Hamburger} alt='hamburger' />
+            <button onClick={handleShow} className={styles.hamburgerBtn}>
+              <Image
+                className={styles.hamburger}
+                src={Hamburger}
+                alt='hamburger'
+              />
             </button>
             {/* ul for mobile */}
-            <ul className={`mobile-ul ${show ? 'true-right' : 'false-right'}`}>
+            <ul
+              className={`${styles.mobileUl} ${
+                show ? styles.trueRight : styles.falseRight
+              }`}
+            >
               <li>
-                <Link className='link-text' href={'/'}>
+                <Link className={styles.linkText} href={'/'}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link className='link-text' href={'/'}>
+                <Link className={styles.linkText} href={'/'}>
                   Careers
                 </Link>
               </li>
               <li>
-                <Link className='link-text' href={'/'}>
+                <Link className={styles.linkText} href={'/'}>
                   Blog
                 </Link>
               </li>
-              <li className='mobile-about-listItem'>
-                <Link className='link-text' href={'/'}>
+              <li className={styles.mobileAboutListItem}>
+                <Link className={styles.linkText} href={'/'}>
                   About Us
                 </Link>
               </li>
               <li>
-                <button className='mobile-login'>Login</button>
-                <button className='mobile-signup'>Sign Up</button>
+                <button className={styles.mobileLogin}>Login</button>
+                <button className={styles.mobileSignup}>Sign Up</button>
               </li>
             </ul>
             {/* ul for desktop view */}
-            <ul className='desktop-ul'>
-              <li className='desktop-list'>
-                <Link className='link-text' href={'/'}>
+            <ul className={styles.desktopUl}>
+              <li className={styles.desktopList}>
+                <Link className={styles.linkText} href={'/'}>
                   Home
                 </Link>
               </li>
-              <li className='desktop-list'>
-                <Link className='link-text' href={'/'}>
+              <li className={styles.desktopList}>
+                <Link className={styles.linkText} href={'/'}>
                   Careers
                 </Link>
               </li>
-              <li className='desktop-list'>
-                <Link className='link-text' href={'/'}>
+              <li className={styles.desktopList}>
+                <Link className={styles.linkText} href={'/'}>
                   Blog
                 </Link>
               </li>
-              <li className='about-list-item'>
-                <Link className='link-text' href={'/'}>
+              <li className={styles.aboutListItem}>
+                <Link className={styles.linkText} href={'/'}>
                   About Us
                 </Link>
               </li>
-              <li className='btn-list-item'>
-                <button className='dekstop-login'>Login</button>
+              <li className={styles.btnListItem}>
+                <button className={styles.dekstopLogin}>Login</button>
               </li>
-              <li className='btn-list-item'>
-                <button className='dekstop-signup'>Sign Up</button>
+              <li className={styles.btnListItem}>
+                <button className={styles.dekstopSignup}>Sign Up</button>
               </li>
             </ul>
           </div>

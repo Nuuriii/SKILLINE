@@ -1,4 +1,4 @@
-.nav-container {
+.navContainer {
   @apply w-full 
          fixed 
          top-0 
@@ -8,12 +8,12 @@
          min-[1488px]:justify-center;
 }
 
-.child-container {
+.childContainer {
   @apply w-full 
          min-[1488px]:w-[70rem];
 }
 
-.view-container {
+.viewContainer {
   @apply w-full 
          relative 
          flex 
@@ -23,30 +23,34 @@
          lg:py-[1.5rem];
 }
 
-.title-container {
+.titleContainer {
   @apply relative 
          ml-[0.8rem] 
          md:ml-[0];
 }
 
-.polygon-img {
+.polygonImg {
   @apply h-[2.9rem] 
          top-[-0.4rem] 
          left-[-1.7rem] 
          absolute z-[-1];
 }
 
-.skilline-title {
+.skillineTitle {
   @apply font-[700]  
        text-[#113C49] 
          text-[1.5rem];
+}
+
+.hamburgerBtn {
+  @apply lg:hidden;
 }
 
 .hamburger {
   @apply h-[3.4rem];
 }
 
-.mobile-ul {
+.mobileUl {
   @apply flex 
          flex-col 
          lg:hidden 
@@ -64,23 +68,23 @@
          backdrop-blur-[9px];
 }
 
-.false-right {
+.falseRight {
   @apply right-[-200%];
 }
 
-.true-right {
+.trueRight {
   @apply right-0;
 }
 
-.link-text {
+.linkText {
   @apply text-[#252641];
 }
 
-.mobile-about-listItem {
+.mobileAboutListItem {
   @apply mb-[1rem];
 }
 
-.mobile-login {
+.mobileLogin {
   @apply mr-[1rem] 
          py-[0.5rem] 
          px-[1.2rem] 
@@ -93,7 +97,7 @@
          bg-[#fff];
 }
 
-.mobile-signup {
+.mobileSignup {
   @apply bg-[#F48C06] 
          py-[0.5rem] 
          px-[1rem] 
@@ -101,14 +105,14 @@
          text-[#FFFFFF];
 }
 
-.desktop-ul {
+.desktopUl {
   @apply items-center 
          hidden 
          lg:flex 
          font-[poppins];
 }
 
-.dekstop-login {
+.dekstopLogin {
   @apply text-[#6C6C6C] 
          h-[2.1rem] 
          rounded-[2rem] 
@@ -119,7 +123,7 @@
          bg-white;
 }
 
-.dekstop-signup {
+.dekstopSignup {
   @apply text-[#FFFFFF] 
          h-[2.1rem] 
          rounded-[2rem] 
@@ -130,14 +134,14 @@
          bg-[#F48C06];
 }
 
-.desktop-list {
+.desktopList {
   @apply mr-[2rem];
 }
 
-.about-list-item {
+.aboutListItem {
   @apply mr-[3rem];
 }
 
-.btn-list-item {
+.btnListItem {
   @apply mr-[1rem];
 }
