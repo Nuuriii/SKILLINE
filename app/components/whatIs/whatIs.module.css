@@ -25,6 +25,10 @@
          lg:text-[2rem];
 }
 
+.spanText {
+  @apply text-[#F48C06];
+}
+
 .paragraphDescription {
   @apply mt-[1rem] 
          text-center 
