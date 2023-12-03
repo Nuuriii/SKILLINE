@@ -11,3 +11,92 @@
          xl:w-[60rem] 
          lg:w-[100%];
 }
+
+.descriptionContainer {
+  @apply flex 
+         flex-col 
+         items-center;
+}
+
+.titleDescription {
+  @apply text-[#2F327D] 
+         text-[1.5rem] 
+         lg:text-[2rem] 
+         font-[600]
+         font-[poppins] 
+         text-center;
+}
+
+.spanText {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply text-[#696984] 
+         text-center 
+         mt-[1rem]
+         font-[poppins] 
+         lg:text-[1.2rem];
+}
+
+.featureContainer {
+  @apply mt-[3rem] 
+         lg:flex 
+         xl:justify-center 
+         xl:items-center;
+}
+
+.imgContainer {
+  @apply lg:mr-[3rem] relative;
+}
+
+.greenBall {
+  @apply hidden 
+         lg:block 
+         absolute 
+         top-[-2rem] 
+         h-[auto] 
+         w-[5rem] 
+         left-[2rem] 
+         z-[-1];
+}
+
+.blueBall {
+  @apply hidden 
+         lg:block 
+         absolute 
+         z-[-1] 
+         top-[-2rem] 
+         left-[7rem] 
+         h-[1rem];
+}
+
+.meetingIcon {
+  @apply lg:h-[16rem] 
+         xl:h-[20rem] 
+         lg:w-[auto] w-auto;
+}
+
+.redBall {
+  @apply hidden 
+         lg:block 
+         absolute 
+         z-[-1] 
+         lg:bottom-[5rem] 
+         xl:bottom-[-1rem] 
+         right-[11rem] 
+         h-[1rem];
+}
+
+.purpleBall {
+  @apply hidden 
+         lg:block 
+         absolute 
+         h-[auto] 
+         lg:w-[9rem] 
+         xl:w-[11rem] 
+         z-[-1] 
+         xl:bottom-[-2rem] 
+         right-[0.5rem] 
+         lg:bottom-[5rem];
+}

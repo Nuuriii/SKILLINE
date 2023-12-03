@@ -13,48 +13,26 @@ export default function Features() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex flex-col items-center'>
-            <h1
-              className='text-[#2F327D] text-[1.5rem] lg:text-[2rem] font-[600] text-center'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
-              Our <span className='text-[#F48C06]'>Features</span>
+          <div className={styles.descriptionContainer}>
+            <h1 className={styles.titleDescription}>
+              Our <span className={styles.spanText}>Features</span>
             </h1>
-            <p
-              className='text-[#696984] text-center mt-[1rem] lg:text-[1.2rem]'
-              style={{ fontFamily: 'poppins' }}
-            >
+            <p className={styles.paragraphDescription}>
               This very extraordinary feature, can make learning activities more
               efficient
             </p>
           </div>
-          <div className='mt-[3rem] lg:flex xl:justify-center xl:items-center'>
-            <div className='lg:mr-[3rem] relative'>
+          <div className={styles.featureContainer}>
+            <div className={styles.imgContainer}>
+              <Image className={styles.greenBall} src={GreenBall} alt='' />
+              <Image className={styles.blueBall} src={BlueBall} alt='' />
               <Image
-                className='hidden lg:block absolute top-[-2rem] h-[auto] w-[5rem] left-[2rem] z-[-1]'
-                src={GreenBall}
-                alt=''
-              />
-              <Image
-                className='hidden lg:block absolute z-[-1] top-[-2rem] left-[7rem] h-[1rem]'
-                src={BlueBall}
-                alt=''
-              />
-              <Image
-                className='lg:h-[16rem] xl:h-[20rem] lg:w-[auto] w-auto'
+                className={styles.meetingIcon}
                 src={Meetings}
                 alt='meetings-icon'
               />
-              <Image
-                className='hidden lg:block absolute z-[-1] lg:bottom-[5rem] xl:bottom-[-1rem] right-[11rem] h-[1rem]'
-                src={RedBall}
-                alt=''
-              />
-              <Image
-                className='hidden lg:block absolute h-[auto] lg:w-[9rem] xl:w-[11rem] z-[-1] xl:bottom-[-2rem] right-[0.5rem] lg:bottom-[5rem]'
-                src={PurpleBall}
-                alt=''
-              />
+              <Image className={styles.redBall} src={RedBall} alt='' />
+              <Image className={styles.purpleBall} src={PurpleBall} alt='' />
             </div>
 
             <div className='mt-[4.4rem] lg:mt-[0rem] lg:w-[40%]'>
