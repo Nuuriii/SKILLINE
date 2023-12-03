@@ -65,3 +65,63 @@
          lg:pb-[2.5rem] 
          rounded-[1rem];
 }
+
+.orangeBg {
+  @apply bg-[#F48C06];
+}
+
+.dodgerBlueBg {
+  @apply bg-[#29B9E7];
+}
+
+.blueVioletBg {
+  @apply bg-[#5B72EE];
+}
+
+.iconContainer {
+  @apply absolute 
+         top-[-1.6rem] 
+         flex 
+         justify-center 
+         items-center 
+         h-[3.2rem] 
+         w-[3.2rem] 
+         rounded-[100%];
+}
+
+.iconStyle {
+  @apply h-[1.6rem] 
+         w-auto;
+}
+
+.cardDescription {
+  @apply flex 
+         flex-col 
+         items-center 
+         justify-between 
+         h-full;
+}
+
+.cardTitle {
+  @apply text-[#2F327D] 
+         h-[50%] 
+         flex 
+         justify-center 
+         items-center 
+         font-[500]
+         font-[poppins] 
+         text-center 
+         lg:text-[1.2rem] 
+         lg:mb-[0.5rem] 
+         xl:w-[15rem];
+}
+
+.cardParagraph {
+  @apply h-[50%] 
+         hidden 
+         lg:flex 
+         text-center 
+         font-[400]
+         font-[poppins] 
+         text-[#696984];
+}

@@ -15,27 +15,17 @@ export default function Card({ icon, alt, title, desc, index }: CardProps) {
       <div
         className={`${
           index === 1
-            ? 'bg-[#F48C06]'
+            ? styles.orangeBg
             : index === 2
-            ? 'bg-[#29B9E7]'
-            : 'bg-[#5B72EE]'
-        } absolute top-[-1.6rem] flex justify-center items-center h-[3.2rem] w-[3.2rem] rounded-[100%]`}
+            ? styles.dodgerBlueBg
+            : styles.blueVioletBg
+        } ${styles.iconContainer}`}
       >
-        <Image className='h-[1.6rem] w-auto' src={icon} alt={alt} />
+        <Image className={styles.iconStyle} src={icon} alt={alt} />
       </div>
-      <div className='flex flex-col items-center justify-between h-full'>
-        <h2
-          className='text-[#2F327D] h-[50%] flex justify-center items-center font-[500] text-center lg:text-[1.2rem] lg:mb-[0.5rem] xl:w-[15rem]'
-          style={{ fontFamily: 'poppins, sans-serif' }}
-        >
-          {title}
-        </h2>
-        <p
-          className='h-[50%] hidden lg:flex text-center font-[400] text-[#696984]'
-          style={{ fontFamily: 'poppins, sans-serif' }}
-        >
-          {desc}
-        </p>
+      <div className={styles.cardDescription}>
+        <h2 className={styles.cardTitle}>{title}</h2>
+        <p className={styles.cardParagraph}>{desc}</p>
       </div>
     </div>
   );
