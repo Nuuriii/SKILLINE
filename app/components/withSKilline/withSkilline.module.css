@@ -16,3 +16,63 @@
          items-center 
          justify-center;
 }
+
+.descriptionContainer {
+  @apply flex 
+         lg:mr-[3rem] 
+         relative 
+         flex-col 
+         xl:w-[50%] 
+         items-center 
+         lg:items-start 
+         lg:w-[50%];
+}
+
+.bigOrangeIcon {
+  @apply hidden 
+         xl:flex 
+         absolute 
+         z-[-1] 
+         h-[4rem] 
+         top-[-0.7rem] 
+         left-[-1rem] 
+         w-auto;
+}
+
+.titleDescription {
+  @apply text-[#2F327D] 
+         mb-[1rem] 
+         font-[600]
+         font-[poppins] 
+         text-[1.5rem] 
+         text-center 
+         lg:text-left 
+         lg:text-[2rem];
+}
+
+.spanText {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply text-[#696984] 
+         text-center
+         font-[poppins] 
+         lg:text-left;
+}
+
+.btn {
+  @apply mt-[1rem]
+         text-[#696984] 
+         underline
+         font-[poppins] 
+         hover:text-sky-600;
+}
+
+.smOrangeIcon {
+  @apply hidden 
+         xl:flex 
+         absolute 
+         top-[70%] 
+         right-0;
+}

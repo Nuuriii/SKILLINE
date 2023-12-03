@@ -13,35 +13,24 @@ export default function WithSkilline() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex lg:mr-[3rem] relative flex-col xl:w-[50%] items-center lg:items-start lg:w-[50%]'>
+          <div className={styles.descriptionContainer}>
             <Image
-              className='hidden xl:flex absolute z-[-1] h-[4rem] top-[-0.7rem] left-[-1rem] w-auto'
+              className={styles.bigOrangeIcon}
               src={BigOrange}
               alt='big-orange-icon'
             />
-            <h1
-              className='text-[#2F327D] mb-[1rem] font-[600] text-[1.5rem] text-center lg:text-left lg:text-[2rem]'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+            <h1 className={styles.titleDescription}>
               Everything you can do in a physical classroom,{'  '}
-              <span className='text-[#F48C06]'>you can do with Skilline</span>
+              <span className={styles.spanText}>you can do with Skilline</span>
             </h1>
-            <p
-              className='text-[#696984] text-center lg:text-left'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+            <p className={styles.paragraphDescription}>
               Skilline’s school management software helps traditional and online
               schools manage scheduling, attendance, payments and virtual
               classrooms all in one secure cloud-based system.
             </p>
-            <button
-              className='mt-[1rem] text-[#696984] underline hover:text-sky-600'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
-              Learn more
-            </button>
+            <button className={styles.btn}>Learn more</button>
             <Image
-              className='hidden xl:flex absolute top-[70%] right-0'
+              className={styles.smOrangeIcon}
               src={SmallOrange}
               alt='small-orange-icon'
             />
