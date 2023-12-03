@@ -62,10 +62,9 @@
 }
 
 .btn {
-  @apply mt-[1rem]
-         text-[#696984] 
-         underline
-         font-[poppins] 
+  @apply mt-[1rem] 
+       text-[#696984] 
+         underline 
          hover:text-sky-600;
 }
 
@@ -75,4 +74,53 @@
          absolute 
          top-[70%] 
          right-0;
+}
+
+.imgContainer {
+  @apply hidden 
+         lg:flex 
+         lg:w-[50%] 
+         rounded-[1rem] 
+         h-[20rem] 
+         xl:bg-[#171B4180] 
+         w-[auto] 
+         relative;
+}
+
+.blueSquareIcon {
+  @apply absolute 
+         top-[-1rem] 
+         left-[-1rem] 
+         z-[-2];
+}
+
+.classImg {
+  @apply h-[100%] 
+         rounded-[1rem] 
+         w-[100%] 
+         z-[-1];
+}
+
+.playBtn {
+  @apply absolute 
+         top-[40%] 
+         left-[40%] 
+         hover:scale-[1.05] 
+         duration-[0.3s] 
+         active:scale-[0.98];
+}
+
+.playIcon {
+  @apply h-[3.7rem] 
+         w-auto 
+         mx-[1.5rem];
+}
+
+.orangeSquareIcon {
+  @apply absolute 
+         z-[-2] 
+         h-[10rem] 
+         w-auto 
+         bottom-[-1rem] 
+         right-[-1rem];
 }

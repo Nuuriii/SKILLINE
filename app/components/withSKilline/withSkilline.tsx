@@ -35,26 +35,18 @@ export default function WithSkilline() {
               alt='small-orange-icon'
             />
           </div>
-          <div className='hidden lg:flex lg:w-[50%] rounded-[1rem] h-[20rem] xl:bg-[#171B4180] w-[auto] relative'>
+          <div className={styles.imgContainer}>
             <Image
-              className='absolute top-[-1rem] left-[-1rem] z-[-2]'
+              className={styles.blueSquareIcon}
               src={Blue}
               alt='blue-square'
             />
-            <Image
-              className='h-[100%] rounded-[1rem] w-[100%] z-[-1]'
-              src={Class}
-              alt='class-img'
-            />
-            <button className='absolute top-[40%] left-[40%] hover:scale-[1.05] duration-[0.3s] active:scale-[0.98]'>
-              <Image
-                className='h-[3.7rem] w-auto mx-[1.5rem]'
-                src={Play}
-                alt='playIcon'
-              />
+            <Image className={styles.classImg} src={Class} alt='class-img' />
+            <button className={styles.playBtn}>
+              <Image className={styles.playIcon} src={Play} alt='playIcon' />
             </button>
             <Image
-              className='absolute z-[-2] h-[10rem] w-auto bottom-[-1rem] right-[-1rem]'
+              className={styles.orangeSquareIcon}
               src={Orange}
               alt='orange-square'
             />
