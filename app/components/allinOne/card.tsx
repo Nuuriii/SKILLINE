@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import styles from './allinOne.module.css';
 
 interface CardProps {
   icon: string;
@@ -10,7 +11,7 @@ interface CardProps {
 
 export default function Card({ icon, alt, title, desc, index }: CardProps) {
   return (
-    <div className='relative flex flex-col items-center bg-[#FFFFFF] shadow-[0px_10px_60px_0px_#e2e8f0] mb-[3rem] sm:mr-[1rem] lg:mr-[2.4rem] px-[1.2rem] pt-[3rem] pb-[1rem] lg:pb-[2.5rem] rounded-[1rem]'>
+    <div className={styles.cardWrapper}>
       <div
         className={`${
           index === 1

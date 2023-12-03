@@ -18,7 +18,7 @@ export default function AllinOne() {
               the tools needed to run a successful school or office.
             </p>
           </div>
-          <div className='mt-[3rem] xl:mt-[6rem] grid grid-cols-1 lg:grid-cols-3 justify-end'>
+          <div className={styles.cardContainer}>
             {cardData.map((item, index) => (
               <Card
                 key={index}

@@ -39,3 +39,29 @@
          font-[poppins] 
          lg:text-[1.2rem];
 }
+
+.cardContainer {
+  @apply mt-[3rem] 
+         xl:mt-[6rem] 
+         grid 
+         grid-cols-1 
+         lg:grid-cols-3 
+         justify-end;
+}
+
+.cardWrapper {
+  @apply relative 
+         flex 
+         flex-col 
+         items-center 
+         bg-[#FFFFFF] 
+         shadow-[0px_10px_60px_0px_#e2e8f0] 
+         mb-[3rem] 
+         sm:mr-[1rem] 
+         lg:mr-[2.4rem] 
+         px-[1.2rem] 
+         pt-[3rem] 
+         pb-[1rem] 
+         lg:pb-[2.5rem] 
+         rounded-[1rem];
+}
