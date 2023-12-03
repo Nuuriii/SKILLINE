@@ -1,12 +1,13 @@
 import Padding from '../padding/padding';
 import { cardData } from './cardData';
 import Card from './card';
+import styles from './allinOne.module.css';
 
 export default function AllinOne() {
   return (
     <Padding>
-      <div className='mt-[4rem] xl:mt-[6rem] flex justify-center'>
-        <div className='min-[500px]:w-[30rem] lg:w-full min-[1488px]:w-[70rem]'>
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='flex flex-col items-center'>
             <h1
               className='mb-[1rem] text-[1.5rem] xl:text-[2rem] text-[#2F327D] text-center font-[700]'
