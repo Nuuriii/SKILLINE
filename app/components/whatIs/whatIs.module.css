@@ -8,3 +8,28 @@
   @apply min-[500px]:w-[30rem] 
          lg:w-full;
 }
+
+.descriptionContainer {
+  @apply mb-[2rem] 
+         flex 
+         flex-col 
+         items-center;
+}
+
+.titleDescription {
+  @apply text-center 
+       text-[#2F327D] 
+         font-[600]
+         font-[poppins] 
+         text-[1.5rem] 
+         lg:text-[2rem];
+}
+
+.paragraphDescription {
+  @apply mt-[1rem] 
+         text-center 
+         text-[#696984] 
+         lg:text-[1.2rem] 
+         lg:w-[55rem]
+         font-[poppins];
+}
