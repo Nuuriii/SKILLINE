@@ -37,3 +37,85 @@
          lg:w-[55rem]
          font-[poppins];
 }
+
+.cardContainer {
+  @apply flex 
+         flex-col 
+         sm:flex-row 
+         sm:justify-center;
+}
+
+.cardWrapper {
+  @apply relative 
+         flex 
+         xl:bg-[#171B4180] 
+         lg:h-[20rem] 
+         rounded-[1rem] 
+         overflow-hidden 
+         lg:w-[29rem] 
+         items-center 
+         justify-center 
+         mb-[1rem] 
+         sm:mr-[2rem];
+}
+
+.imgContainer {
+  @apply absolute 
+         hidden 
+         lg:block 
+         h-[100%] 
+         w-[100%] 
+         z-[-1];
+}
+
+.bgImgStyles {
+  @apply h-[100%] 
+         w-[100%];
+}
+
+.cardDescription {
+  @apply flex 
+         flex-col 
+         items-center 
+         justify-center;
+}
+
+.cardTitle {
+  @apply text-[#2F327D] 
+         xl:text-[1.2rem] 
+         lg:text-white 
+         mb-[0.2rem] 
+         font-[600]
+         font-[poppins];
+}
+
+.btnStyle {
+  @apply h-[3rem] 
+         w-[12rem] 
+         rounded-[2rem] 
+         flex 
+         justify-center 
+         items-center  
+         text-[#FFFFFF] 
+         font-[500]
+         font-[poppins] 
+         hover:scale-[1.03] 
+         duration-[0.3s] 
+         active:scale-[0.99] 
+         xl:text-[1rem];
+}
+
+.startClassBtn {
+  @apply bg-[#23BDEEE5] 
+         xl:bg-transparent 
+         xl:border-[1px] 
+         border-solid 
+         border-[#fff] 
+         xl:hover:border-none 
+         hover:bg-[#4acff7];
+}
+
+.enterCodeBtn {
+  @apply bg-[#23BDEEE5] 
+         hover:bg-[#4acff7];
+}
