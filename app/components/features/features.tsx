@@ -6,12 +6,13 @@ import GreenBall from '@/assets/features/greenBall.png';
 import PurpleBall from '@/assets/features/purpleBall.png';
 import BlueBall from '@/assets/features/blueBall.svg';
 import RedBall from '@/assets/features/redBall.svg';
+import styles from './feature.module.css';
 
 export default function Features() {
   return (
     <Padding>
-      <div className='mt-[4rem] xl:mt-[9rem] flex justify-center mb-[2rem]'>
-        <div className='min-[500px]:w-[30rem] xl:w-[60rem] lg:w-[100%]'>
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='flex flex-col items-center'>
             <h1
               className='text-[#2F327D] text-[1.5rem] lg:text-[2rem] font-[600] text-center'
