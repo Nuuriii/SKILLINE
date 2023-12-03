@@ -8,18 +8,12 @@ export default function AllinOne() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex flex-col items-center'>
-            <h1
-              className='mb-[1rem] text-[1.5rem] xl:text-[2rem] text-[#2F327D] text-center font-[700]'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+          <div className={styles.descriptionContainer}>
+            <h1 className={styles.titleDescription}>
               All-In-One
-              <span className='text-[#F48C06]'> Cloud Software.</span>
+              <span className={styles.titleSpan}> Cloud Software.</span>
             </h1>
-            <p
-              className='text-[#696984] text-center xl:w-[40rem] font-[400] lg:text-[1.2rem]'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+            <p className={styles.paragraphDescription}>
               Skilline is one powerful online software suite that combines all
               the tools needed to run a successful school or office.
             </p>

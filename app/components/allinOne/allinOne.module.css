@@ -10,3 +10,32 @@
          lg:w-full 
          min-[1488px]:w-[70rem];
 }
+
+.descriptionContainer {
+  @apply flex 
+         flex-col 
+         items-center;
+}
+
+.titleDescription {
+  @apply mb-[1rem] 
+         text-[1.5rem] 
+         xl:text-[2rem] 
+         text-[#2F327D] 
+         text-center 
+         font-[700]
+         font-[poppins];
+}
+
+.titleSpan {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply text-[#696984] 
+         text-center 
+         xl:w-[40rem] 
+         font-[400]
+         font-[poppins] 
+         lg:text-[1.2rem];
+}
