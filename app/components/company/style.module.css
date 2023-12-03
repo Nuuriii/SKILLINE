@@ -1,33 +1,17 @@
-.imgRegular {
-  display: flex;
-  height: 2.3rem;
-  width: auto;
+.companyContainer {
+  @apply flex 
+         justify-center;
 }
 
-.imgHover {
-  display: none;
-  height: 2.3rem;
-  width: auto;
-}
-
-.imgContainer {
-  margin: 1.2rem;
-}
-
-.imgContainer:hover .imgRegular {
-  display: none;
-}
-
-.imgContainer:hover .imgHover {
-  display: flex;
-}
-
-@media (width <= 688px) {
-  .imgRegular {
-    height: 1.5rem;
-  }
-
-  .imgHover {
-    height: 1.5rem;
-  }
+.childContainer {
+  @apply min-[500px]:w-[30rem] 
+         lg:w-full 
+         min-[1444px]:w-[70rem] 
+         w-full 
+         flex 
+         flex-col 
+         items-center 
+         mt-[6rem] 
+         min-[1444px]:mt-[2rem] 
+         mb-[3rem];
 }

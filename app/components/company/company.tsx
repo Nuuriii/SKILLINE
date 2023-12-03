@@ -1,12 +1,13 @@
 import { CompanyIcon } from './companyData';
 import Image from 'next/image';
 import Padding from '../padding/padding';
+import styles from './style.module.css';
 
 export default function Company() {
   return (
     <Padding>
-      <div className='flex justify-center'>
-        <div className='min-[500px]:w-[30rem] lg:w-full min-[1444px]:w-[70rem] w-full flex  flex-col items-center mt-[6rem] min-[1444px]:mt-[2rem] mb-[3rem]'>
+      <div className={styles.companyContainer}>
+        <div className={styles.childContainer}>
           <div>
             <h1
               className='text-[1.2rem] md:text-[1.6rem] text-[#696984s] text-center font-[500]'
