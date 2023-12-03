@@ -100,3 +100,76 @@
          right-[0.5rem] 
          lg:bottom-[5rem];
 }
+
+.featureWrapper {
+  @apply mt-[4.4rem] 
+         lg:mt-[0rem] 
+         lg:w-[40%];
+}
+
+.featureTitle {
+  @apply text-[#2F327D] 
+         hidden 
+         lg:block 
+         text-center 
+         lg:text-left 
+         text-[1.3rem] 
+         font-[600]
+         font-[poppins] 
+         lg:text-[1.5rem] 
+         xl:w-[30rem];
+}
+
+.featureItemsContainer {
+  @apply mt-[3rem] 
+         lg:mt-[1rem];
+}
+
+.featureItemsWrapper {
+  @apply relative 
+         flex 
+         items-center 
+         rounded-[1rem] 
+         px-[0.5rem] 
+         pt-[2.5rem] 
+         pb-[1rem] 
+         lg:shadow-none 
+         shadow-[0px_10px_60px_0px_#e2e8f0] 
+         mb-[3rem] 
+         lg:mb-[1.5rem] 
+         lg:p-0 
+         lg:justify-between;
+}
+
+.featureIconContainer {
+  @apply absolute 
+         lg:static 
+         rounded-[100%] 
+         h-[3.5rem] 
+         top-[-1.7rem] 
+         left-[40%] 
+         w-[3.5rem] 
+         bg-[#FBFBFB] 
+         flex 
+         justify-center 
+         items-center 
+         shadow-[0px_14px_44px_0px__#0d0f1c1f] 
+         lg:h-[3rem] 
+         lg:w-[3rem];
+}
+
+.featureIcon {
+  @apply h-[1.8rem] 
+         w-[1.8rem] 
+         lg:h-[1.4rem] 
+         lg:w-[1.4rem];
+}
+
+.featureParagraph {
+  @apply lg:w-[85%] 
+         lg:text-[1.1rem] 
+         text-[#696984] 
+         text-center 
+         font-[poppins]
+         lg:text-left;
+}
