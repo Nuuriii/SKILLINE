@@ -49,3 +49,18 @@
          after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] 
          after:content-[''];
 }
+
+.companySlider {
+  @apply animate-infinite-slider 
+         flex 
+         items-center 
+         w-[calc(250px*10)];
+}
+
+.companyIconContainer {
+  @apply mx-[3rem] 
+         flex 
+         w-[125px] 
+         items-center 
+         justify-center;
+}

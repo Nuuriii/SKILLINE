@@ -14,20 +14,14 @@ export default function Company() {
             </h1>
           </div>
           <div className={styles.sliderContainer}>
-            <div className='animate-infinite-slider flex items-center w-[calc(250px*10)]'>
+            <div className={styles.companySlider}>
               {CompanyIcon.map((item, index) => (
-                <div
-                  className='slide mx-[3rem] flex w-[125px] items-center justify-center'
-                  key={index}
-                >
+                <div className={styles.companyIconContainer} key={index}>
                   <Image src={item.icon} alt={item.alt} />
                 </div>
               ))}
               {CompanyIcon.map((item, index) => (
-                <div
-                  className='slide mx-[3rem] flex w-[125px] items-center justify-center'
-                  key={index}
-                >
+                <div className={styles.companyIconContainer} key={index}>
                   <Image src={item.icon} alt={item.alt} />
                 </div>
               ))}
