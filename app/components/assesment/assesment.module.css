@@ -12,3 +12,181 @@
          lg:flex 
          lg:justify-between;
 }
+
+.cardContainer {
+  @apply flex 
+         flex-col 
+         items-center 
+         xl:w-[50%];
+}
+
+.cardWrapper {
+  @apply h-[19rem] 
+         xl:h-[24rem] 
+         w-[16rem] 
+         xl:w-[21rem] 
+         p-[1rem] 
+         xl:p-[1.2rem] 
+         bg-[#FFFFFF] 
+         shadow-[0px_9px_43px_0px_#282b6f1a] 
+         relative 
+         rounded-[1rem]
+         font-[poppins];
+}
+
+.orangeIcon {
+  @apply hidden 
+         xl:flex 
+         h-[1.3rem] 
+         w-[auto] 
+         absolute 
+         left-[4rem] 
+         top-[-2.3rem];
+}
+
+.purpleIcon {
+  @apply hidden 
+         xl:flex 
+         h-[6rem] 
+         w-[auto] 
+         absolute 
+         left-[-2rem] 
+         top-[-1.3rem] 
+         z-[-3];
+}
+
+.closeIcon {
+  @apply bg-white 
+         hidden 
+         xl:flex 
+         absolute 
+         right-[1rem] 
+         top-[-1rem] 
+         z-[1] 
+         h-[3.2rem] 
+         w-[3.2rem] 
+         shadow-[0px_0px_20px_1px_#edf2f7] 
+         rounded-[100%];
+}
+
+.successIcon {
+  @apply hidden 
+         xl:flex 
+         absolute 
+         bg-white 
+         right-[-1rem] 
+         top-[1.6rem] 
+         z-[1] 
+         h-[3.2rem] 
+         w-[3.2rem] 
+         shadow-[0px_0px_20px_1px_#edf2f7] 
+         rounded-[100%];
+}
+
+.redIcon {
+  @apply hidden 
+         xl:flex 
+         h-[1.2rem] 
+         w-[auto] 
+         absolute 
+         right-[-3rem] 
+         top-[14rem] 
+         z-[-3];
+}
+
+.greenIcon {
+  @apply hidden 
+         xl:flex 
+         h-[1.2rem] 
+         w-[auto] 
+         absolute 
+         left-[-1rem] 
+         bottom-[-2.5rem] 
+         z-[-3];
+}
+
+.labelCard {
+  @apply h-[2rem] 
+         w-[6.5rem] 
+         flex 
+         justify-center 
+         items-center 
+         rounded-[2rem] 
+         bg-[#CDD8FF] 
+         text-[0.8rem] 
+         text-[#717FB0] 
+         xl:text-[1rem] 
+         xl:h-[2.3rem] 
+         xl:w-[8rem];
+}
+
+.paragraphCard {
+  @apply text-[1.2rem] 
+         text-[#55578D] 
+         font-[600] 
+         mt-[1rem] 
+         xl:mt-[1.5rem] 
+         xl:text-[1.6rem];
+}
+
+.riverImg {
+  @apply mt-[1.4rem] 
+         z-[1] 
+         xl:h-[12rem] 
+         xl:w-auto absolute 
+         rounded-[1rem];
+}
+
+.alertContainer {
+  @apply absolute 
+         right-[0rem] 
+         bottom-[-1rem] 
+         h-[4rem] 
+         w-[13rem] 
+         rounded-[1rem] 
+         z-[2] 
+         shadow-[0px_18px_52px_0px_#282b6f14] 
+         bg-[#FFFFFF] 
+         flex 
+         items-center 
+         px-[1rem] 
+         justify-center 
+         hover:scale-[1.05] 
+         duration-[0.3s];
+}
+
+.alertIconContainer {
+  @apply relative 
+         mr-[1rem];
+}
+
+.planeIcon {
+  @apply h-[5.5rem] 
+         w-auto;
+}
+
+.bigGreenTransparent {
+  @apply absolute 
+         h-[2.5rem] 
+         z-[-1] 
+         top-[1.6rem] 
+         left-[-0.1rem];
+}
+
+.alertWrapper {
+  @apply relative;
+}
+
+.alertMessage {
+  @apply text-[#41BE90] 
+         font-[600] 
+         text-[0.8rem];
+}
+
+.smGreenTransparent {
+  @apply absolute 
+         h-[1.4rem] 
+         z-[-1] 
+         bottom-[-0.3rem] 
+         right-[-1.6rem];
+}

@@ -16,71 +16,58 @@ export default function Assesment() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex flex-col items-center xl:w-[50%]'>
-            <div
-              className='h-[19rem] xl:h-[24rem] w-[16rem] xl:w-[21rem] p-[1rem] xl:p-[1.2rem] bg-[#FFFFFF] shadow-[0px_9px_43px_0px_#282b6f1a] relative rounded-[1rem]'
-              style={{ fontFamily: 'poppins, sans-serif' }}
-            >
+          <div className={styles.cardContainer}>
+            <div className={styles.cardWrapper}>
               <Image
-                className='hidden xl:flex h-[1.3rem] w-[auto] absolute left-[4rem] top-[-2.3rem]'
+                className={styles.orangeIcon}
                 src={Orange}
                 alt='orange-icon'
               />
               <Image
-                className='hidden xl:flex h-[6rem] w-[auto] absolute left-[-2rem] top-[-1.3rem] z-[-3]'
+                className={styles.purpleIcon}
                 src={Purple}
                 alt='purple-icon'
               />
               <Image
-                className='bg-white hidden xl:flex absolute right-[1rem] top-[-1rem] z-[1] h-[3.2rem] w-[3.2rem] shadow-[0px_0px_20px_1px_#edf2f7] rounded-[100%]'
+                className={styles.closeIcon}
                 src={Close}
                 alt='close-icon'
               />
               <Image
-                className='hidden xl:flex absolute bg-white right-[-1rem] top-[1.6rem] z-[1] h-[3.2rem] w-[3.2rem] shadow-[0px_0px_20px_1px_#edf2f7] rounded-[100%]'
+                className={styles.successIcon}
                 src={Success}
                 alt='success-icon'
               />
+              <Image className={styles.redIcon} src={Red} alt='red-icon' />
               <Image
-                className='hidden xl:flex h-[1.2rem] w-[auto] absolute right-[-3rem] top-[14rem] z-[-3]'
-                src={Red}
-                alt='red-icon'
-              />
-              <Image
-                className='hidden xl:flex h-[1.2rem] w-[auto] absolute left-[-1rem] bottom-[-2.5rem] z-[-3]'
+                className={styles.greenIcon}
                 src={Green}
                 alt='green-icon'
               />
-              <h3 className='h-[2rem] w-[6.5rem] flex justify-center items-center rounded-[2rem] bg-[#CDD8FF] text-[0.8rem] text-[#717FB0] xl:text-[1rem] xl:h-[2.3rem] xl:w-[8rem]'>
-                Question 1
-              </h3>
-              <p className='text-[1.2rem] text-[#55578D] font-[600] mt-[1rem] xl:mt-[1.5rem] xl:text-[1.6rem]'>
+              <h3 className={styles.labelCard}>Question 1</h3>
+              <p className={styles.paragraphCard}>
                 True or false? This play takes place in Italy
               </p>
-              <Image
-                className='mt-[1.4rem] z-[1] xl:h-[12rem] xl:w-auto absolute rounded-[1rem]'
-                src={River}
-                alt='river-img'
-              />
-              <div className='absolute right-[0rem] bottom-[-1rem] h-[4rem] w-[13rem] rounded-[1rem] z-[2] shadow-[0px_18px_52px_0px_#282b6f14] bg-[#FFFFFF] flex items-center px-[1rem] justify-center hover:scale-[1.05] duration-[0.3s]'>
-                <div className='relative mr-[1rem]'>
+              <Image className={styles.riverImg} src={River} alt='river-img' />
+              <div className={styles.alertContainer}>
+                <div className={styles.alertIconContainer}>
                   <Image
-                    className='h-[5.5rem] w-auto'
+                    className={styles.planeIcon}
                     src={Plane}
                     alt='plane-icon'
                   />
                   <Image
-                    className='absolute h-[2.5rem] z-[-1] top-[1.6rem] left-[-0.1rem]'
+                    className={styles.bigGreenTransparent}
                     src={GreenTransparent}
                     alt='big-green-transparent'
                   />
                 </div>
-                <div className='relative'>
-                  <p className='text-[#41BE90] font-[600] text-[0.8rem]'>
+                <div className={styles.alertWrapper}>
+                  <p className={styles.alertMessage}>
                     Your answer was sent successfully
                   </p>
                   <Image
-                    className='absolute h-[1.4rem] z-[-1] bottom-[-0.3rem] right-[-1.6rem]'
+                    className={styles.smGreenTransparent}
                     src={GreenTransparent}
                     alt='small-green-transparent'
                   />
