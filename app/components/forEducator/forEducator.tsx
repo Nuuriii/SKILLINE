@@ -19,9 +19,9 @@ export default function ForEducator() {
               can review and grade tests and quizzes in real-time.
             </p>
           </div>
-          <div className='mt-[1rem] flex justify-center'>
+          <div className={styles.imgContainer}>
             <Image
-              className='h-[13rem] lg:h-[22rem] xl:h-[25rem] w-auto'
+              className={styles.gradeBookImg}
               src={GradeBook}
               alt='gradebook-img'
             />

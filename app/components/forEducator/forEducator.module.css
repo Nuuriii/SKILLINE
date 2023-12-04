@@ -43,3 +43,16 @@
          text-center 
          lg:text-justify;
 }
+
+.imgContainer {
+  @apply mt-[1rem] 
+         flex 
+         justify-center;
+}
+
+.gradeBookImg {
+  @apply h-[13rem] 
+         lg:h-[22rem] 
+         xl:h-[25rem] 
+         w-auto;
+}
