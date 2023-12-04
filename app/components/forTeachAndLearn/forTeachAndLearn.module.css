@@ -1,0 +1,16 @@
+.mainContainer {
+  @apply mt-[1rem] 
+         lg:mt-[8rem] 
+         flex 
+         justify-center;
+}
+
+.childContainer {
+  @apply flex 
+         flex-col 
+         lg:flex-row 
+         items-center 
+         min-[500px]:w-[30rem] 
+         lg:w-[100%] 
+         min-[1488px]:w-[70rem];
+}
