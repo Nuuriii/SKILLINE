@@ -190,3 +190,37 @@
          bottom-[-0.3rem] 
          right-[-1.6rem];
 }
+
+.descriptionContainer {
+  @apply mt-[3rem] 
+         lg:mt-0 
+         flex 
+         flex-col 
+         items-center 
+         lg:items-start 
+         lg:w-[50%]
+         font-[poppins];
+}
+
+.titleDescription {
+  @apply text-[#2F327D] 
+         font-[600] 
+         text-[1.5rem] 
+         text-center 
+         lg:w-[25rem] 
+         lg:text-left 
+         lg:text-[2rem];
+}
+
+.spanText {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply mt-[0.8rem] 
+         text-[#696984] 
+         text-center 
+         lg:text-left 
+         lg:w-[30rem] 
+         lg:text-[1.2rem];
+}

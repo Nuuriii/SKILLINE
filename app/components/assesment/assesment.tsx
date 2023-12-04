@@ -75,15 +75,12 @@ export default function Assesment() {
               </div>
             </div>
           </div>
-          <div
-            className='mt-[3rem] lg:mt-0 flex flex-col items-center lg:items-start lg:w-[50%]'
-            style={{ fontFamily: 'poppins, sans-serif' }}
-          >
-            <h1 className='text-[#2F327D] font-[600] text-[1.5rem] text-center lg:w-[25rem] lg:text-left lg:text-[2rem]'>
-              Assessments, <span className='text-[#F48C06]'>Quizzes</span>,
+          <div className={styles.descriptionContainer}>
+            <h1 className={styles.titleDescription}>
+              Assessments, <span className={styles.spanText}>Quizzes</span>,
               Tests
             </h1>
-            <p className='mt-[0.8rem] text-[#696984] text-center lg:text-left lg:w-[30rem] lg:text-[1.2rem]'>
+            <p className={styles.paragraphDescription}>
               Easily launch live assignments, quizzes, and tests. Student
               results are automatically entered in the online gradebook.
             </p>
