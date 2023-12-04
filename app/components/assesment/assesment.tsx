@@ -9,12 +9,13 @@ import GreenTransparent from '@/assets/assesment/green-transparent.svg';
 import Orange from '@/assets/withSkilline/smallOrange.svg';
 import Green from '@/assets/features/greenBall.png';
 import Red from '@/assets/features/redBall.svg';
+import styles from './assesment.module.css';
 
 export default function Assesment() {
   return (
     <Padding>
-      <div className='mt-[6rem] mb-[3rem] flex justify-center'>
-        <div className='min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%] lg:flex lg:justify-between '>
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='flex flex-col items-center xl:w-[50%]'>
             <div
               className='h-[19rem] xl:h-[24rem] w-[16rem] xl:w-[21rem] p-[1rem] xl:p-[1.2rem] bg-[#FFFFFF] shadow-[0px_9px_43px_0px_#282b6f1a] relative rounded-[1rem]'
