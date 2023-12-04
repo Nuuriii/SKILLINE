@@ -15,3 +15,31 @@
          lg:justify-between
          font-[poppins];
 }
+
+.descriptionContainer {
+  @apply lg:w-[50%] 
+         xl:w-[45%] 
+         lg:mr-[4rem];
+}
+
+.titleDescription {
+  @apply lg:w-[20rem] 
+         text-[#2F327D] 
+         font-[600] 
+         text-[1.5rem] 
+         lg:text-[2rem] 
+         text-center 
+         lg:text-left;
+}
+
+.spanText {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply mt-[1rem] 
+         text-[#696984] 
+         lg:text-[1.2rem] 
+         text-center 
+         lg:text-justify;
+}
