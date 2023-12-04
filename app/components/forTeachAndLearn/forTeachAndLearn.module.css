@@ -48,3 +48,17 @@
          mt-[1rem]
          font-[poppins];
 }
+
+.imgContainer {
+  @apply mt-[1rem] 
+         lg:w-[50%] 
+         flex 
+         justify-center;
+}
+
+.studentImg {
+  @apply h-[15rem] 
+         lg:h-[20rem] 
+         xl:h-[25rem] 
+         w-auto;
+}

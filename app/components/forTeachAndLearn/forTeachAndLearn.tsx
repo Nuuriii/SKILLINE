@@ -19,9 +19,9 @@ export default function ForTeachAndLearn() {
               for students to complete and submit.
             </p>
           </div>
-          <div className='mt-[1rem] lg:w-[50%] flex justify-center'>
+          <div className={styles.imgContainer}>
             <Image
-              className='h-[15rem] lg:h-[20rem] xl:h-[25rem] w-auto'
+              className={styles.studentImg}
               src={Student}
               alt='student-img'
             />
