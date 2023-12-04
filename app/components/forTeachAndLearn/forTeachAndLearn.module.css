@@ -14,3 +14,37 @@
          lg:w-[100%] 
          min-[1488px]:w-[70rem];
 }
+
+.descriptionContainer {
+  @apply flex 
+         flex-col 
+         items-center 
+         lg:items-start 
+         lg:mr-[6rem] 
+         lg:w-[50%];
+}
+
+.titleDescription {
+  @apply text-[#2F327D] 
+         font-[600] 
+         font-[poppins]
+         text-center 
+         lg:text-left 
+         text-[1.5rem] 
+         lg:text-[2rem] 
+         w-[16rem] 
+         lg:w-[20rem];
+}
+
+.spanText {
+  @apply text-[#F48C06];
+}
+
+.paragraphDescription {
+  @apply text-[#696984] 
+         text-center 
+         lg:text-justify 
+         lg:text-[1.2rem] 
+         mt-[1rem]
+         font-[poppins];
+}
