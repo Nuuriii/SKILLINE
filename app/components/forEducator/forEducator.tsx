@@ -1,15 +1,13 @@
 import Padding from '../padding/padding';
 import Image from 'next/image';
 import GradeBook from '@/assets/forEducator/gradeBook.png';
+import styles from './forEducator.module.css';
 
 export default function ForEducator() {
   return (
     <Padding>
-      <div className='mt-[6rem] flex justify-center'>
-        <div
-          className='min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%] flex items-center flex-col lg:flex-row lg:justify-between'
-          style={{ fontFamily: 'poppins, sans-serif' }}
-        >
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='lg:w-[50%] xl:w-[45%] lg:mr-[4rem]'>
             <h1 className='lg:w-[20rem] text-[#2F327D] font-[600] text-[1.5rem] lg:text-[2rem] text-center lg:text-left'>
               <span className='text-[#F48C06]'>Class Management</span> Tools for
