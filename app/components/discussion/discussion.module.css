@@ -25,3 +25,57 @@
          xl:h-[23rem] 
          w-auto;
 }
+
+.descriptionContainer {
+  @apply mt-[1.2rem] 
+         lg:mt-0 
+         lg:w-[50%] 
+         xl:w-[40%];
+}
+
+.titleContainer {
+  @apply lg:w-[15rem] 
+         text-[#F48C06] 
+         font-[600] 
+         text-center 
+         lg:text-[2rem] 
+         lg:text-left 
+         text-[1.5rem];
+}
+
+.spanText {
+  @apply text-[#2F327D];
+}
+
+.paragraphContainer {
+  @apply mt-[1rem] 
+         text-center 
+         lg:text-[1.2rem] 
+         lg:text-justify 
+         text-[#696984];
+}
+
+.btnContainer {
+  @apply flex 
+         justify-center 
+         mt-[3rem] 
+         xl:mt-[7rem];
+}
+
+.seeMoreBtn {
+  @apply h-[3rem] 
+         w-[12rem] 
+         rounded-[2rem] 
+         flex 
+         justify-center 
+         items-center 
+         border-[1px] 
+         border-solid 
+         border-[#F48C06] 
+         text-[#F48C06] 
+         hover:bg-[#F48C06] 
+         hover:text-white 
+         hover:scale-[1.05] 
+         active:scale-[0.99] 
+         duration-[0.3s];
+}
