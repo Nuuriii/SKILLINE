@@ -26,9 +26,9 @@ export default function Integrations() {
             <Image className={styles.teamsIcon} src={Teams} alt='teams-icon' />
           </div>
           <div className='mt-[3rem] flex flex-col items-center lg:w-[50%] lg:items-start'>
-            <div className='hidden lg:flex lg:items-center'>
-              <span className='h-[1px] w-[4rem] bg-[#525596] mr-[1.2rem]'></span>
-              <h3 className='text-[#525596] font-[400]'>INTEGRATIONS</h3>
+            <div className={styles.integrationsContainer}>
+              <span className={styles.spanBorder}></span>
+              <h3 className={styles.integrationsText}>INTEGRATIONS</h3>
             </div>
             <h1 className='lg:mt-[1rem] text-[#525596] text-[1.5rem] lg:text-[2rem] font-[600] text-center lg:text-left'>
               200+ educational tools and platform{' '}

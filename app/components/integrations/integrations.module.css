@@ -54,3 +54,30 @@
          w-auto 
          mt-[1.5rem];
 }
+
+.descriptionContainer {
+  @apply mt-[3rem] 
+         flex 
+         flex-col 
+         items-center 
+         lg:w-[50%] 
+         lg:items-start;
+}
+
+.integrationsContainer {
+  @apply hidden 
+         lg:flex 
+         lg:items-center;
+}
+
+.spanBorder {
+  @apply h-[1px] 
+         w-[4rem] 
+         bg-[#525596] 
+         mr-[1.2rem];
+}
+
+.integrationsText {
+  @apply text-[#525596] 
+         font-[400];
+}
