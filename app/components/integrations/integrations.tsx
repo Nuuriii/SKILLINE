@@ -11,27 +11,19 @@ export default function Integrations() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='h-auto xl:w-[25rem] grid grid-cols-2 items-center justify-items-center'>
+          <div className={styles.imgContainer}>
             <Image
-              className='h-[5rem] lg:h-[7rem] xl:h-[9rem] w-auto'
+              className={styles.oneDriveIcon}
               src={OneDrive}
               alt='one-drive-icon'
             />
             <Image
-              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto'
+              className={styles.dropBoxIcon}
               src={Dropbox}
               alt='dropbox-icon'
             />
-            <Image
-              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
-              src={Drive}
-              alt='drive-icon'
-            />
-            <Image
-              className='h-[4.5rem] lg:h-[5rem] xl:h-[6rem] w-auto mt-[1.5rem]'
-              src={Teams}
-              alt='teams-icon'
-            />
+            <Image className={styles.driveIcon} src={Drive} alt='drive-icon' />
+            <Image className={styles.teamsIcon} src={Teams} alt='teams-icon' />
           </div>
           <div className='mt-[3rem] flex flex-col items-center lg:w-[50%] lg:items-start'>
             <div className='hidden lg:flex lg:items-center'>

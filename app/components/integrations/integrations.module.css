@@ -15,3 +15,42 @@
          items-center 
          lg:justify-between;
 }
+
+.imgContainer {
+  @apply h-auto 
+         xl:w-[25rem] 
+         grid 
+         grid-cols-2 
+         items-center 
+         justify-items-center;
+}
+
+.oneDriveIcon {
+  @apply h-[5rem] 
+         lg:h-[7rem] 
+         xl:h-[9rem] 
+         w-auto;
+}
+
+.dropBoxIcon {
+  @apply h-[4.5rem] 
+         lg:h-[5rem] 
+         xl:h-[6rem] 
+         w-auto;
+}
+
+.driveIcon {
+  @apply h-[4.5rem] 
+         lg:h-[5rem] 
+         xl:h-[6rem] 
+         w-auto 
+         mt-[1.5rem];
+}
+
+.teamsIcon {
+  @apply h-[4.5rem] 
+         lg:h-[5rem] 
+         xl:h-[6rem] 
+         w-auto 
+         mt-[1.5rem];
+}
