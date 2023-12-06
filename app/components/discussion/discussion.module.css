@@ -10,3 +10,18 @@
          min-[1444px]:w-[70rem] 
          lg:w-full;
 }
+
+.imgContainer {
+  @apply flex 
+         flex-col 
+         items-center 
+         lg:flex-row 
+         lg:justify-between;
+}
+
+.discussionImg {
+  @apply h-[13rem] 
+         lg:h-[17rem] 
+         xl:h-[23rem] 
+         w-auto;
+}

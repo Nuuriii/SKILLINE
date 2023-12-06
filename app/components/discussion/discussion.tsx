@@ -8,10 +8,10 @@ export default function Discussion() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex flex-col items-center lg:flex-row lg:justify-between'>
+          <div className={styles.imgContainer}>
             <div>
               <Image
-                className='h-[13rem] lg:h-[17rem] xl:h-[23rem] w-auto'
+                className={styles.discussionImg}
                 src={DiscussionImg}
                 alt='discussion-img'
               />
