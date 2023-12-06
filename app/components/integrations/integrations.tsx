@@ -4,15 +4,13 @@ import Teams from '@/assets/integrations/mTeams.svg';
 import Drive from '@/assets/integrations/drive.svg';
 import Dropbox from '@/assets/integrations/dropbox.svg';
 import OneDrive from '@/assets/integrations/oneDrive.svg';
+import styles from './integrations.module.css';
 
 export default function Integrations() {
   return (
     <Padding>
-      <div
-        className='mt-[6rem] flex justify-center'
-        style={{ fontFamily: 'poppins, sans-serif' }}
-      >
-        <div className='min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%] flex flex-col lg:flex-row items-center lg:justify-between'>
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='h-auto xl:w-[25rem] grid grid-cols-2 items-center justify-items-center'>
             <Image
               className='h-[5rem] lg:h-[7rem] xl:h-[9rem] w-auto'
