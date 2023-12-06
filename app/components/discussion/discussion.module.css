@@ -1,0 +1,12 @@
+.mainContainer {
+  @apply mt-[7rem] 
+         flex 
+         justify-center
+         font-[poppins];
+}
+
+.childContainer {
+  @apply min-[500px]:w-[30rem] 
+         min-[1444px]:w-[70rem] 
+         lg:w-full;
+}
