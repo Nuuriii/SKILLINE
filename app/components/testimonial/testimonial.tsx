@@ -10,33 +10,24 @@ export default function Testimonial() {
     <Padding>
       <div className={styles.mainContainer}>
         <div className={styles.childContainer}>
-          <div className='flex flex-col items-center lg:items-start'>
-            <h1 className='text-[#2F327D] text-center lg:text-left font-[600] text-[1.5rem] lg:text-[2rem]'>
-              What They Say?
-            </h1>
-            <p
-              data-testid='first-paraph'
-              className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'
-            >
+          <div className={styles.descriptionContainer}>
+            <h1 className={styles.titleDescription}>What They Say?</h1>
+            <p data-testid='first-paraph' className={styles.firstParagraph}>
               Skilline has got more than 100k positive ratings from our users
               around the world.
             </p>
-            <p className='text-[#696984] lg:text-[1.2rem] mt-[1rem] text-center lg:text-left'>
+            <p className={styles.secondParagraph}>
               Some of the students and teachers were greatly helped by the
               Skilline.
             </p>
-            <p className='text-[#696984] lg:text-[1.2rem] mt-[1.6rem] text-center lg:text-left'>
+            <p className={styles.thirdParagraph}>
               Are you too? Please give your assessment
             </p>
-            <button
-              className={`text-[#F48C06] relative mt-[2rem] xl:mt-[4rem] h-[3rem] w-[17rem] rounded-[2rem] flex items-center justify-center lg:justify-start border-[1px] border-solid  border-[#F48C06] xl:border-r-[0px]  xl:hover:scale-100 xl:active:scale-100 xl:hover:w-[19rem] lg:pl-[1.5rem] hover:text-[#fff] hover:bg-[#F48C06] hover:scale-[1.05] active:scale-[0.99] duration-[0.3s]`}
-            >
-              <span className=''>Write your assessment</span>
-              <div
-                className={`hidden lg:flex absolute right-0 border-[1px] rounded-[100%] border-solid border-[#F48C06] bg-white justify-center h-[100%] w-[3rem] items-center duration-[0.3s]`}
-              >
+            <button className={styles.btn}>
+              <span>Write your assessment</span>
+              <div className={styles.imgBtn}>
                 <Image
-                  className='h-[1.2rem] w-auto right-0 '
+                  className={styles.arrowRight}
                   src={ArrowRight}
                   alt='arrow-right'
                 />
