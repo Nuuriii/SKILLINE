@@ -3,15 +3,13 @@ import Image from 'next/image';
 import ArrowRight from '@/assets/testimonial/arrow-right.svg';
 import SmileGirl from '@/assets/testimonial/smiling-woman.png';
 import StarGroup from '@/assets/testimonial/star-group.svg';
+import styles from './testimonial.module.css';
 
 export default function Testimonial() {
   return (
     <Padding>
-      <div
-        className='mt-[6rem] xl:mt-[8rem] mb-[6rem] flex justify-center'
-        style={{ fontFamily: 'nunito, sans-serif' }}
-      >
-        <div className='flex flex-col lg:flex-row items-center min-[500px]:w-[30rem] min-[1444px]:w-[70rem] lg:w-[100%]'>
+      <div className={styles.mainContainer}>
+        <div className={styles.childContainer}>
           <div className='flex flex-col items-center lg:items-start'>
             <h1 className='text-[#2F327D] text-center lg:text-left font-[600] text-[1.5rem] lg:text-[2rem]'>
               What They Say?
