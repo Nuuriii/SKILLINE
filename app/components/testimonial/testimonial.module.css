@@ -106,3 +106,56 @@
          w-auto 
          right-0;
 }
+
+.imgContainer {
+  @apply mt-[11rem] 
+         lg:mt-[0rem] 
+         relative  
+         w-full 
+         flex 
+         justify-center;
+}
+
+.smileGirlImg {
+  @apply absolute 
+         top-[-7rem] 
+         z-[-1] 
+         lg:static 
+         h-[10rem] 
+         lg:h-[23rem] 
+         xl:h-[28rem] 
+         w-auto 
+         rounded-[0.5rem];
+}
+
+.testimonialContainer {
+  @apply min-[500px]:w-[20rem] 
+         lg:w-[22rem] 
+         xl:w-[28rem] 
+         lg:absolute 
+         lg:top-[12rem] 
+         lg:right-[1rem] 
+         xl:top-[18rem] 
+         xl:right-[3rem] 
+         bg-[#FFFFFF] 
+         shadow-[0_3px_10px_rgb(0,0,0,0.2)] 
+         py-[1.2rem] 
+         px-[1rem] 
+         xl:px-[1.5rem] 
+         xl:border-l-[8px] 
+         border-solid 
+         border-[#F67766] 
+         rounded-[1rem];
+}
+
+.testimonialUser {
+  @apply xl:pl-[1rem]  
+         xl:border-l-[1px] 
+         border-solid 
+         border-[#BDBDD1];
+}
+
+.testimonialText {
+  @apply text-[#5F5F7E] 
+         font-[400];
+}
