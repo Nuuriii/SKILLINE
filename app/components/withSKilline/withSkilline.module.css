@@ -3,8 +3,11 @@
          md:mt-[7rem] 
          xl:mt-[9rem] 
          mb-[2rem] 
-         flex 
-         justify-center;
+         flex
+         h-[25rem] 
+         justify-center
+         pt-[3rem]
+         overflow-x-hidden;
 }
 
 .childContainer {
@@ -25,7 +28,8 @@
          xl:w-[50%] 
          items-center 
          lg:items-start 
-         lg:w-[50%];
+         lg:w-[50%]
+         xl:mr-[10rem];
 }
 
 .bigOrangeIcon {
@@ -57,13 +61,15 @@
 .paragraphDescription {
   @apply text-[#696984] 
          text-center
-         font-[poppins] 
+         font-[poppins]
+         lg:text-[1.2rem] 
          lg:text-left;
 }
 
 .btn {
   @apply mt-[1rem] 
-       text-[#696984] 
+       text-[#696984]
+         lg:text-[1.2rem] 
          underline 
          hover:text-sky-600;
 }
@@ -72,14 +78,14 @@
   @apply hidden 
          xl:flex 
          absolute 
-         top-[70%] 
+         top-[80%] 
          right-0;
 }
 
 .imgContainer {
   @apply hidden 
          lg:flex 
-         lg:w-[50%] 
+         lg:w-[43%] 
          rounded-[1rem] 
          h-[20rem] 
          xl:bg-[#171B4180] 
@@ -98,7 +104,8 @@
   @apply h-[100%] 
          rounded-[1rem] 
          w-[100%] 
-         z-[-1];
+         z-[-1]
+         absolute;
 }
 
 .playBtn {

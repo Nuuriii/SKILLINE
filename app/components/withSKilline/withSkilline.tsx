@@ -10,49 +10,54 @@ import styles from './withSkilline.module.css';
 
 export default function WithSkilline() {
   return (
-    <Padding>
-      <div className={styles.mainContainer}>
-        <div className={styles.childContainer}>
-          <div className={styles.descriptionContainer}>
-            <Image
-              className={styles.bigOrangeIcon}
-              src={BigOrange}
-              alt='big-orange-icon'
-            />
-            <h1 className={styles.titleDescription}>
-              Everything you can do in a physical classroom,{'  '}
-              <span className={styles.spanText}>you can do with Skilline</span>
-            </h1>
-            <p className={styles.paragraphDescription}>
-              Skilline’s school management software helps traditional and online
-              schools manage scheduling, attendance, payments and virtual
-              classrooms all in one secure cloud-based system.
-            </p>
-            <button className={styles.btn}>Learn more</button>
-            <Image
-              className={styles.smOrangeIcon}
-              src={SmallOrange}
-              alt='small-orange-icon'
-            />
+    <div className={styles.mainContainer}>
+      <div>
+        <Padding>
+          <div className={styles.childContainer}>
+            <div className={styles.descriptionContainer} data-aos='fade-right'>
+              <Image
+                className={styles.bigOrangeIcon}
+                src={BigOrange}
+                alt='big-orange-icon'
+              />
+              <h1 className={styles.titleDescription}>
+                Everything you can do in a physical classroom,{'  '}
+                <span className={styles.spanText}>
+                  you can do with Skilline
+                </span>
+              </h1>
+              <p className={styles.paragraphDescription}>
+                Skilline’s school management software helps traditional and
+                online schools manage scheduling, attendance, payments and
+                virtual classrooms all in one secure cloud-based system.
+              </p>
+              <button className={styles.btn}>Learn more</button>
+              <Image
+                className={styles.smOrangeIcon}
+                src={SmallOrange}
+                alt='small-orange-icon'
+              />
+            </div>
+            <div className={styles.imgContainer} data-aos='fade-left'>
+              <Image
+                className={styles.blueSquareIcon}
+                src={Blue}
+                alt='blue-square'
+              />
+              <div className='rounded-[1rem] h-full w-full bg-[#171B4180]'></div>
+              <Image className={styles.classImg} src={Class} alt='class-img' />
+              <button className={styles.playBtn}>
+                <Image className={styles.playIcon} src={Play} alt='playIcon' />
+              </button>
+              <Image
+                className={styles.orangeSquareIcon}
+                src={Orange}
+                alt='orange-square'
+              />
+            </div>
           </div>
-          <div className={styles.imgContainer}>
-            <Image
-              className={styles.blueSquareIcon}
-              src={Blue}
-              alt='blue-square'
-            />
-            <Image className={styles.classImg} src={Class} alt='class-img' />
-            <button className={styles.playBtn}>
-              <Image className={styles.playIcon} src={Play} alt='playIcon' />
-            </button>
-            <Image
-              className={styles.orangeSquareIcon}
-              src={Orange}
-              alt='orange-square'
-            />
-          </div>
-        </div>
+        </Padding>
       </div>
-    </Padding>
+    </div>
   );
 }

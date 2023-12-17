@@ -1,7 +1,8 @@
 .mainContainer {
   @apply mt-[2rem] 
          flex 
-         justify-center;
+         justify-center
+         overflow-hidden;
 }
 
 .childContainer {
@@ -75,7 +76,7 @@
 .cardDescription {
   @apply h-full
          w-full
-         bg-[#171B4180]
+         xl:bg-[#171B4180]
          flex 
          flex-col 
          items-center 
