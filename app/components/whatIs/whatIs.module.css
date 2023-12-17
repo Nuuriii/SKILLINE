@@ -48,7 +48,6 @@
 .cardWrapper {
   @apply relative 
          flex 
-         xl:bg-[#171B4180] 
          lg:h-[20rem] 
          rounded-[1rem] 
          overflow-hidden 
@@ -74,7 +73,10 @@
 }
 
 .cardDescription {
-  @apply flex 
+  @apply h-full
+         w-full
+         bg-[#171B4180]
+         flex 
          flex-col 
          items-center 
          justify-center;
