@@ -14,10 +14,12 @@ import Integrations from './components/integrations/integrations';
 import Testimonial from './components/testimonial/testimonial';
 import LastestNews from './components/lastestNews/lastestNews';
 import Footer from './components/footer/footer';
+import { AOSInit } from './aos';
 
 export default function Home() {
   return (
     <>
+      <AOSInit />
       <Navbar />
       <main className=''>
         <Header />

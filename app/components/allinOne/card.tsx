@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import styles from './allinOne.module.css';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 interface CardProps {
   icon: string;
@@ -10,8 +13,15 @@ interface CardProps {
 }
 
 export default function Card({ icon, alt, title, desc, index }: CardProps) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 0,
+    });
+  }, []);
+
   return (
-    <div className={styles.cardWrapper}>
+    <div className={styles.cardWrapper} data-aos='zoom-in'>
       <div
         className={`${
           index === 1
