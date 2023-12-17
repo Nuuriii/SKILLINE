@@ -1,14 +1,16 @@
 .mainContainer {
   @apply mt-[4rem] 
          xl:mt-[9rem] 
+         w-full
          flex 
          justify-center 
-         mb-[2rem];
+         mb-[2rem]
+         overflow-hidden
+         pb-[2rem];
 }
 
 .childContainer {
-  @apply min-[500px]:w-[30rem] 
-         xl:w-[60rem] 
+  @apply min-[500px]:w-[30rem]  
          lg:w-[100%];
 }
 
@@ -41,13 +43,17 @@
 
 .featureContainer {
   @apply mt-[3rem] 
-         lg:flex 
-         xl:justify-center 
-         xl:items-center;
+         lg:flex
+         w-full
+         xl:items-center
+         xl:justify-center;
 }
 
 .imgContainer {
-  @apply lg:mr-[3rem] relative;
+  @apply lg:mr-[3rem]
+         xl:mr-[5rem]
+         w-[50%] 
+         relative;
 }
 
 .greenBall {
@@ -74,7 +80,8 @@
 .meetingIcon {
   @apply lg:h-[16rem] 
          xl:h-[20rem] 
-         lg:w-[auto] w-auto;
+         lg:w-[auto] 
+         w-auto;
 }
 
 .redBall {
