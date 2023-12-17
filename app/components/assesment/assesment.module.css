@@ -1,8 +1,11 @@
 .mainContainer {
-  @apply mt-[6rem] 
+  @apply mt-[6rem]
+         xl:mt-[10rem]
+         xl:py-[3rem] 
          mb-[3rem] 
          flex 
-         justify-center;
+         justify-center
+         overflow-hidden;
 }
 
 .childContainer {
@@ -10,7 +13,8 @@
          min-[1444px]:w-[70rem] 
          lg:w-[100%] 
          lg:flex 
-         lg:justify-between;
+         lg:justify-between
+         xl:items-center;
 }
 
 .cardContainer {

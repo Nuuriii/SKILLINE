@@ -10,83 +10,93 @@ import Orange from '@/assets/withSkilline/smallOrange.svg';
 import Green from '@/assets/features/greenBall.png';
 import Red from '@/assets/features/redBall.svg';
 import styles from './assesment.module.css';
+import { AOSInit } from '@/app/aos';
 
 export default function Assesment() {
   return (
-    <Padding>
-      <div className={styles.mainContainer}>
-        <div className={styles.childContainer}>
-          <div className={styles.cardContainer}>
-            <div className={styles.cardWrapper}>
-              <Image
-                className={styles.orangeIcon}
-                src={Orange}
-                alt='orange-icon'
-              />
-              <Image
-                className={styles.purpleIcon}
-                src={Purple}
-                alt='purple-icon'
-              />
-              <Image
-                className={styles.closeIcon}
-                src={Close}
-                alt='close-icon'
-              />
-              <Image
-                className={styles.successIcon}
-                src={Success}
-                alt='success-icon'
-              />
-              <Image className={styles.redIcon} src={Red} alt='red-icon' />
-              <Image
-                className={styles.greenIcon}
-                src={Green}
-                alt='green-icon'
-              />
-              <h3 className={styles.labelCard}>Question 1</h3>
-              <p className={styles.paragraphCard}>
-                True or false? This play takes place in Italy
-              </p>
-              <Image className={styles.riverImg} src={River} alt='river-img' />
-              <div className={styles.alertContainer}>
-                <div className={styles.alertIconContainer}>
-                  <Image
-                    className={styles.planeIcon}
-                    src={Plane}
-                    alt='plane-icon'
-                  />
-                  <Image
-                    className={styles.bigGreenTransparent}
-                    src={GreenTransparent}
-                    alt='big-green-transparent'
-                  />
-                </div>
-                <div className={styles.alertWrapper}>
-                  <p className={styles.alertMessage}>
-                    Your answer was sent successfully
-                  </p>
-                  <Image
-                    className={styles.smGreenTransparent}
-                    src={GreenTransparent}
-                    alt='small-green-transparent'
-                  />
+    <>
+      <AOSInit />
+      <Padding>
+        <div className={styles.mainContainer}>
+          <div className={styles.childContainer}>
+            <AOSInit />
+            <div className={styles.cardContainer} data-aos='fade-right'>
+              <div className={styles.cardWrapper}>
+                <Image
+                  className={styles.orangeIcon}
+                  src={Orange}
+                  alt='orange-icon'
+                />
+                <Image
+                  className={styles.purpleIcon}
+                  src={Purple}
+                  alt='purple-icon'
+                />
+                <Image
+                  className={styles.closeIcon}
+                  src={Close}
+                  alt='close-icon'
+                />
+                <Image
+                  className={styles.successIcon}
+                  src={Success}
+                  alt='success-icon'
+                />
+                <Image className={styles.redIcon} src={Red} alt='red-icon' />
+                <Image
+                  className={styles.greenIcon}
+                  src={Green}
+                  alt='green-icon'
+                />
+                <h3 className={styles.labelCard}>Question 1</h3>
+                <p className={styles.paragraphCard}>
+                  True or false? This play takes place in Italy
+                </p>
+                <Image
+                  className={styles.riverImg}
+                  src={River}
+                  alt='river-img'
+                />
+                <div className={styles.alertContainer}>
+                  <div className={styles.alertIconContainer}>
+                    <Image
+                      className={styles.planeIcon}
+                      src={Plane}
+                      alt='plane-icon'
+                    />
+                    <Image
+                      className={styles.bigGreenTransparent}
+                      src={GreenTransparent}
+                      alt='big-green-transparent'
+                    />
+                  </div>
+                  <div className={styles.alertWrapper}>
+                    <p className={styles.alertMessage}>
+                      Your answer was sent successfully
+                    </p>
+                    <Image
+                      className={styles.smGreenTransparent}
+                      src={GreenTransparent}
+                      alt='small-green-transparent'
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className={styles.descriptionContainer}>
-            <h1 className={styles.titleDescription}>
-              Assessments, <span className={styles.spanText}>Quizzes</span>,
-              Tests
-            </h1>
-            <p className={styles.paragraphDescription}>
-              Easily launch live assignments, quizzes, and tests. Student
-              results are automatically entered in the online gradebook.
-            </p>
+            <AOSInit />
+            <div className={styles.descriptionContainer} data-aos='fade-left'>
+              <h1 className={styles.titleDescription}>
+                Assessments, <span className={styles.spanText}>Quizzes</span>,
+                Tests
+              </h1>
+              <p className={styles.paragraphDescription}>
+                Easily launch live assignments, quizzes, and tests. Student
+                results are automatically entered in the online gradebook.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </Padding>
+      </Padding>
+    </>
   );
 }
