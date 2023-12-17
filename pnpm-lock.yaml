@@ -25,6 +25,9 @@ devDependencies:
   '@testing-library/react':
     specifier: ^14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
+  '@types/aos':
+    specifier: ^3.0.7
+    version: 3.0.7
   '@types/jest':
     specifier: ^29.5.8
     version: 29.5.8
@@ -1024,6 +1027,10 @@ packages:
 
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
+    dev: true
+
+  /@types/aos@3.0.7:
+    resolution: {integrity: sha512-sEhyFqvKauUJZDbvAB3Pggynrq6g+2PS4XB3tmUr+mDL1gfDJnwslUC4QQ7/l8UD+LWpr3RxZVR/rHoZrLqZVg==}
     dev: true
 
   /@types/aria-query@5.0.4:

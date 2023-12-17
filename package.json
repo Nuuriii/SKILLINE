@@ -23,6 +23,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^14.1.0",
+    "@types/aos": "^3.0.7",
     "@types/jest": "^29.5.8",
     "@types/node": "^20",
     "@types/react": "^18",
