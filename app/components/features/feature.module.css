@@ -52,7 +52,7 @@
 .imgContainer {
   @apply lg:mr-[3rem]
          xl:mr-[5rem]
-         w-[50%] 
+         xl:w-[50%] 
          relative;
 }
 
