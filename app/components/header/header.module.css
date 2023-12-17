@@ -1,13 +1,15 @@
 .mainContainer {
   @apply relative 
-         flex 
+         flex
+         h-[100vh] 
+         sm:h-full
          justify-center;
 }
 
 .orangeBg {
-  @apply h-[95vh] 
-         hidden 
-         lg:flex 
+  @apply hidden 
+         lg:flex
+         h-[95vh]
          min-[1488px]:h-[40rem] 
          min-[1488px]:w-[100%] 
          absolute z-[-2];
@@ -15,6 +17,8 @@
 
 .childContainer {
   @apply w-full 
+         pb-[2rem]
+         lg:pb-0
          bg-[#FFF2E1] 
          lg:bg-transparent 
          min-[1488px]:w-[70rem];
@@ -27,7 +31,7 @@
 
 .contentContainer {
   @apply flex 
-         pt-[4rem] 
+         pt-[6rem] 
          lg:pt-0 
          flex-col 
          items-center 
